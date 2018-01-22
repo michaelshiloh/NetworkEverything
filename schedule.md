@@ -35,8 +35,9 @@ _
 	- If you are not familiar with Arduino, read Intro through Lesson 3 of Adafruit's [Arduino
 		tutorial](http://www.ladyada.net/learn/arduino/index.html) 
 - **Do**
-	- Download the Arduino software from here.   
-	  Try to install it if you can but don’t worry if you have trouble.   
+	- Download the Arduino IDE (ARDUINO 1.8.5) from
+		[here](https://www.arduino.cc/en/Main/Software)
+	- Try to install it if you can but don’t worry if you have trouble.   
 		We’ll do that in class.  
 	- Create a GitHub account and create a repository for this class. 
 	[Here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
