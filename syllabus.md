@@ -33,7 +33,7 @@ Room Access Form [http://goo.gl/forms/Mge02MPoCb](http://goo.gl/forms/Mge02MPoCb
 * Stop by my office or the Interactive Media lab anytime  
 * Send me email to set up an appointment   
 
-Description:
+### Description:
 This course explores the possibilities and challenges of designing alternate
 physical network interfaces. Through weekly readings, class discussions, and a
 series of projects, students will create physical objects that talk to each
@@ -70,14 +70,14 @@ At the end of the course, students will be able to :
   –  use basic socket communication technologies to share information between machines
   –  build and connect networked objects that can act inside of a larger system, or exist as their own sub-network
 
-Evaluation:
-    Your in-class participation counts towards your grade. This means you are expected to be actively engaged in class discussions, attentive to other students, and mentally present in the classroom and on excursions.
+### Evaluation:
+Your in-class participation counts towards your grade. This means you are expected to be actively engaged in class discussions, attentive to other students, and mentally present in the classroom and on excursions.
 
-Production assignments
+#### Production assignments
 
 There will be several production assignments that involve you building physical prototypes or programming software. You should be prepared to show work on any week a production assignment is due.
 
-Online journal
+#### Online journal
 
 You are expected to keep an online journal for this class. The journal will be
 your repository for research, thoughts and reactions to the readings, and a
@@ -91,21 +91,25 @@ At minimum, you are expected to have one blog post for every production
 assignment documenting the work. If you have multiple posts for one
 assignment, tag them appropriately.
 
-In-class participation
+The journal must be in your Github repository, either in the README.md or a
+different file.
+
+#### In-class participation
+
 You are expected to attend class and actively engage in all discussions, 
 exercises, and activities. 
 Failure to participate in discussions and demonstrate that the readings 
 have been completed will affect the participation component of your grade.
 You are expected to pay attention to your peer’s work and presentations in class. 
 
-– More than one unexcused absence will result in a lower final grade (a B+ would become a B). 
-– More than three unexcused absences will result in failure. If you’re going to be late or absent, email me in advance.
-– If you have an emergency, please let me know as soon as possible.
-– If you miss a class session for any reason, you are still responsible for making up the material covered.
-– If you are on your phone or computer, and it is not part of a course assignment, 
+ – More than one unexcused absence will result in a lower final grade (a B+ would become a B). 
+ – More than three unexcused absences will result in failure. If you’re going to be late or absent, email me in advance.
+ – If you have an emergency, please let me know as soon as possible.
+ – If you miss a class session for any reason, you are still responsible for making up the material covered.
+ – If you are on your phone or computer, and it is not part of a course assignment, 
 you will be given an unexcused absence for the entire day meeting
 
-Midterm project
+#### Midterm project
 
 You will produce a hardware and software production project where you develop
 a device that communicates with an online server. The specifics of the project
@@ -113,7 +117,7 @@ need to be discussed with the professor in advance.
 
 You will work in pairs on this project.
 
-Final Project
+#### Final Project
 
 You will produce a hardware and software production project where you develop
 a fully realized pair (or more) of networked devices. The specifics of the
@@ -121,7 +125,7 @@ project need to be discussed with the professor in advance.
 
 You may work in pairs or individually on this project.
 
-Class Assignment
+#### Class Assignment
 
 Online journal : 20%
 Production assignments : 20%
@@ -130,7 +134,7 @@ Participation : 15%
 Final project : 20%
 Midterm project : 15%
 
-Required Reading
+### Required Reading
 
 – Rowland, Goodman, Charlier, Light & Lui. Designing Connected Projects, O’Reilly, 2015.
 – Faludi, Robert. Building Wireless Sensor Networks, O’Reilly, 2011.
@@ -139,7 +143,7 @@ Required Reading
 
 Additional readings will be provided as PDFs or online links.
 
-Methodology
+### Methodology
 
 Each class will start with a discussion based on readings, or presentation of
 student work. You are expected to always be prepared to show any work you have
