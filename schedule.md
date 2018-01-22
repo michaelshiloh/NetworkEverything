@@ -12,17 +12,17 @@
 This schedule is subject to change
 _
 
--Week 1 (Jan 27)
+#### Tuesday 23 January 2018 9am - 10:15
 – Introductions, what’s the class about, example work, skill share moment.
 - Syllabus review
-		- Summary:
-			-  Be present and participate in class
-			-  No electronic distractions
-			-  Be proactive: Communicate with me regarding difficulties, problems, illness, etc.
-			-  Allow lots of time for homework as physical construction 
-					and
-					debugging circuits and programs 
-					can be very time consuming.
+- Summary:
+	-  Be present and participate in class
+	-  No electronic distractions
+	-  Be proactive: Communicate with me regarding difficulties, problems, illness, etc.
+	-  Allow lots of time for homework as physical construction 
+	and
+	debugging circuits and programs 
+	can be very time consuming.
 
 ### current-homework-assignment
 #### Homework due Thursday 25 January 
@@ -44,7 +44,7 @@ _
 	- Write a reaction to the three chapters from Linked 
 
 
-Tentative order of topics
+#### Tentative order of topics
 
 - Physical Computing crash course
 
