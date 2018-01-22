@@ -127,19 +127,19 @@ You may work in pairs or individually on this project.
 
 #### Class Assignment
 
-Online journal : 20%
-Production assignments : 20%
-Class assignment : 10%
-Participation : 15%
-Final project : 20%
-Midterm project : 15%
+Online journal : 20%  
+Production assignments : 20%  
+Class assignment : 10%  
+Participation : 15%  
+Final project : 20%  
+Midterm project : 15%  
 
 ### Required Reading
 
-– Rowland, Goodman, Charlier, Light & Lui. Designing Connected Projects, O’Reilly, 2015.
-– Faludi, Robert. Building Wireless Sensor Networks, O’Reilly, 2011.
-– Linked: The New Science Of Networks Science Of Networks, Basic Books, 2014
-– Igoe, Tom. Making Things Talk 2nd Edition. O’Reilly Media/Make, 2011
+– Rowland, Goodman, Charlier, Light & Lui. Designing Connected Projects, O’Reilly, 2015.  
+– Faludi, Robert. Building Wireless Sensor Networks, O’Reilly, 2011.  
+– Linked: The New Science Of Networks Science Of Networks, Basic Books, 2014  
+– Igoe, Tom. Making Things Talk 2nd Edition. O’Reilly Media/Make, 2011  
 
 Additional readings will be provided as PDFs or online links.
 
