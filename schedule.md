@@ -13,7 +13,8 @@ This schedule is subject to change
 _
 
 #### Tuesday 23 January 2018 9am - 10:15
-- Introductions, what’s the class about, example work, skill share moment.
+- What’s the class about
+- Introductions
 - Syllabus review
 - Summary:
 	-  Be present and participate in class
