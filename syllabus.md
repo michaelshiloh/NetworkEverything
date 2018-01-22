@@ -75,7 +75,7 @@ Evaluation:
 
 Production assignments
 
-    There will be several production assignments that involve you building physical prototypes or programming software. You should be prepared to show work on any week a production assignment is due.
+There will be several production assignments that involve you building physical prototypes or programming software. You should be prepared to show work on any week a production assignment is due.
 
 Online journal
 
