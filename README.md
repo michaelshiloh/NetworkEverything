@@ -1,8 +1,20 @@
+## New York University Abu Dhabi
+## Interactive Media
 # Network Everything
+### Course Number: IM-UH 2112
+### Spring 2018
 
-[Current homework assignment]()
+**Everything can be found on the course website:**   
+[https://github.com/michaelshiloh/NetworkEverything](https://github.com/michaelshiloh/NetworkEverything/)
 
-[Syllabus](syllabus.md)
+
+[Current Homework
+Assignment](https://github.com/michaelshiloh/NetworkEverything/blob/master/schedule.md#current-homework-assignment)
+
+[Syllabus](syllabus.md)  
+
 [Schedule](schedule.md)
 
 Student Github repositories
+
+
