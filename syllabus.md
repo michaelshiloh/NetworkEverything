@@ -64,11 +64,11 @@ Learning outcomes
 
 At the end of the course, students will be able to :
 
-  –  Use microcontrollers and embedded devices to communicate with other machines
-  –  describe different network topologies and various uses for them
-  –  identify and use a variety of wired and wireless communication protocols
-  –  use basic socket communication technologies to share information between machines
-  –  build and connect networked objects that can act inside of a larger system, or exist as their own sub-network
+–  Use microcontrollers and embedded devices to communicate with other machines  
+–  describe different network topologies and various uses for them  
+–  identify and use a variety of wired and wireless communication protocols  
+–  use basic socket communication technologies to share information between machines  
+–  build and connect networked objects that can act inside of a larger system, or exist as their own sub-network  
 
 ### Evaluation:
 Your in-class participation counts towards your grade. This means you are expected to be actively engaged in class discussions, attentive to other students, and mentally present in the classroom and on excursions.
@@ -102,12 +102,12 @@ Failure to participate in discussions and demonstrate that the readings
 have been completed will affect the participation component of your grade.
 You are expected to pay attention to your peer’s work and presentations in class. 
 
- – More than one unexcused absence will result in a lower final grade (a B+ would become a B). 
- – More than three unexcused absences will result in failure. If you’re going to be late or absent, email me in advance.
- – If you have an emergency, please let me know as soon as possible.
- – If you miss a class session for any reason, you are still responsible for making up the material covered.
- – If you are on your phone or computer, and it is not part of a course assignment, 
-you will be given an unexcused absence for the entire day meeting
+– More than one unexcused absence will result in a lower final grade (a B+ would become a B).   
+– More than three unexcused absences will result in failure. If you’re going to be late or absent, email me in advance.  
+– If you have an emergency, please let me know as soon as possible.  
+– If you miss a class session for any reason, you are still responsible for making up the material covered.  
+– If you are on your phone or computer, and it is not part of a course assignment, 
+you will be given an unexcused absence for the entire day meeting  
 
 #### Midterm project
 
