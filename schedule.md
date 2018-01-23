@@ -30,6 +30,7 @@ _
 - **Update**
 	- Storage allocation has not been determined yet so you don't need to label
 	  your shelf yet
+	- I have reduced the amount of reading from Making Things Talk
 - **Read**
 	- Linked, Chapters 1-3
 	-	Making Things Talk 
