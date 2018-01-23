@@ -28,10 +28,15 @@ _
 ### current-homework-assignment
 #### Homework due Thursday 25 January 
 - **Update**
-	- nothing yet
+	- Storage allocation has not been determined yet so you don't need to label
+	  your shelf yet
 - **Read**
 	- Linked, Chapters 1-3
-	-	Making Things Talk pp 1-63
+	-	Making Things Talk 
+		- pp xi-xviii
+		- pp 1-5
+		- pp 24-27
+		- browse 28-35
 	- If you are not familiar with Arduino, read Intro through Lesson 3 of Adafruit's [Arduino
 		tutorial](http://www.ladyada.net/learn/arduino/index.html) 
 - **Do**
@@ -42,7 +47,6 @@ _
 	- Create a GitHub account and create a repository for this class. 
 	[Here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
 	are some instructions
-	- Label your shelf
 	- Write a reaction to the three chapters from Linked 
 
 
