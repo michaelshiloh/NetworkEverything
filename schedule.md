@@ -51,6 +51,12 @@ _
 	- Write a reaction to the three chapters from Linked 
 
 #### Thursday 25 January 9am - 11:40
+- Github: 
+	- Use blank lines to separate paragraphs
+	- Rename your file .md to prevent runon lines
+	- Github resources
+		[here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
+	- You can look at my files to see how I've done things
 - Discussion: Linked
 - Arduino
 	- What is it?
