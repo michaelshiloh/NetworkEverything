@@ -50,6 +50,20 @@ _
 	are some instructions
 	- Write a reaction to the three chapters from Linked 
 
+#### Thursday 25 January 9am - 11:40
+- Discussion: Linked
+- Arduino
+	- What is it?
+	- Inputs and outputs, analog and digital
+	- IDE, examples
+	- Blink
+	- Solderless breadboard
+	- LEDs
+	- Sensors
+		- Momentary switch
+		- LDR
+	- Conditionals
+	- Combining examples
 
 #### Tentative order of topics
 
