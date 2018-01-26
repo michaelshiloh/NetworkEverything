@@ -25,7 +25,6 @@ _
 	debugging circuits and programs 
 	can be very time consuming.
 
-### current-homework-assignment
 #### Homework due Thursday 25 January 
 - **Update**
 	- Storage allocation has not been determined yet so you don't need to label
@@ -71,13 +70,37 @@ _
 	- Conditionals
 	- Combining examples
 
-#### Tentative order of topics
+### current-homework-assignment
+#### Homework due Tuesday 30 January 2018
+- **Reading**
+	- Review the Getting Started with Arduino / Genuino Uno
+    [tutorial](https://www.arduino.cc/en/Guide/ArduinoUno)
+	- Review the Blink [tutorial](http://arduino.cc/en/Tutorial/Blink)
+	- Read the DigitalReadSerial 
+	[tutorial](http://arduino.cc/en/Tutorial/DigitalReadSerial)
+	- Read the AnalogReadSerial 
+	[tutorial](http://arduino.cc/en/Tutorial/AnalogReadSerial)
+	- Read the Fade [tutorial](http://arduino.cc/en/Tutorial/Fade)
+shows how to use the `analogWrite()` function
+	- Review either Sparkfun's [How to Use a
+    Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
+    tutorial or Adafruit's [Breadboards for
+		Beginners](https://learn.adafruit.com/breadboards-for-beginners?view=all)
+		tutorial
+	- Watch
+		[this](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction) Khan Academy Introduction to number systems and binary
 
-- Physical Computing crash course
+#### Tuesday 30 January 2018 9am - 10:15 (tentative)
+- Review analog/digial/input/output
+- Variables
+- Conditionals
+- `for()` loops
 
-- Build a physical controller for a game of your choosing. 
+#### Thursday 25 January 9am - 11:40 (tentative)
 
 - Serial communication (Synchronous and  Asynchronous 
+
+#### Tentative order of topics
 
 - Wireless (Serial, point - to - point)
 
