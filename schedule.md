@@ -95,6 +95,9 @@ shows how to use the `analogWrite()` function
 - Variables
 - Conditionals
 - `for()` loops
+- turn light on button pressed
+- Can we use this to communicate?
+- binary numbers
 
 #### Thursday 25 January 9am - 11:40 (tentative)
 
