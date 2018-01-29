@@ -99,19 +99,22 @@ shows how to use the `analogWrite()` function
 - Can we use this to communicate?
 - binary numbers
 
-Tentative homework for Thursday
-– When the Internet of Things Feels Like the Internet of Shit
+Tentative homework for Thursday February 1
 - find an example of a useful IoT device
 - find an example of a useless IoT device
+- document provide links and a reason you think one is useful and the other
+	isn't
 
-Tentative homework for Tuesday
+Tentative homework for Tuesday February 5
 – Linked, Chapter 4
 
-#### Thursday 25 January 9am - 11:40 (tentative)
+Tentative homework for Thursday February 7
+– Designing Connected Products Ch 3 & 5.
 
-- Serial communication (Synchronous and  Asynchronous 
 
 #### Tentative order of topics
+
+- Serial communication (Synchronous and  Asynchronous 
 
 - Wireless (Serial, point - to - point)
 
