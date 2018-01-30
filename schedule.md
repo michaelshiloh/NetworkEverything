@@ -116,7 +116,7 @@ See further below.
 #### Tentative homework for Tuesday February 5  
 
 **Read**  
-– Linked, Chapter 4
+- Linked, Chapter 4
 - One of the Shift registers
 	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)  
 - The Sparkfun Serial communication
