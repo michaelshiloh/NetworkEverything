@@ -70,7 +70,6 @@ _
 	- Conditionals
 	- Combining examples
 
-### current-homework-assignment
 #### Homework due Tuesday 30 January 2018
 - **Reading**
 	- Review the Getting Started with Arduino / Genuino Uno
@@ -90,23 +89,36 @@ shows how to use the `analogWrite()` function
 	- Watch
 		[this](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction) Khan Academy Introduction to number systems and binary
 
-#### Tuesday 30 January 2018 9am - 10:15 (tentative)
+#### Tuesday 30 January 2018 9am - 10:15 
 - Review analog/digial/input/output
 - Variables
 - Conditionals
-- `for()` loops
 - turn light on button pressed
 - Can we use this to communicate?
-- binary numbers
 
-Tentative homework for Thursday February 1
-- find an example of a useful IoT device
-- find an example of a useless IoT device
-- document provide links and a reason you think one is useful and the other
-	isn't
+### current-homework-assignment
+#### Homework due Thursday February 1 
+**Do**
+- Find an example of a **useful** IoT device
+- Find an example of a **useless** IoT device
+- Write a post in your repository. Provide links to these devices and discuss
+your reasons 
+**Update**
+I've assigned some reading for next Tuesday. You may want to get started now.
+See further below.
 
 Tentative homework for Tuesday February 5
+**Read**
 – Linked, Chapter 4
+- One of the Shift registers
+	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)
+- The Sparkfun Serial communication
+	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)
+
+#### Thursday February 1 9am - 11:40
+- Serial communication
+- `for()` loops
+- binary numbers
 
 Tentative homework for Thursday February 7
 – Designing Connected Products Ch 3 & 5.

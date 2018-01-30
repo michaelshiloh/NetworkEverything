@@ -23,6 +23,6 @@ Student Github repositories
 [Adham](https://github.com/AdhamChakohi/networkeverything)  
 [Ali](https://github.com/alialrahma/NetworkEverything)  
 [Abdullah](https://github.com/abdullahzameek/NetworkEverything)  
-[Joseph](https://github.com/JosephNartey/Joseph_NetworkEverything)
-[Ming](https://github.com/mingwho)
+[Joseph](https://github.com/JosephNartey/Joseph_NetworkEverything)  
+[Ming](https://github.com/mingwho/NetworkEverything)
 
