@@ -7,6 +7,9 @@
 **Everything can be found on the course website:**   
 [https://github.com/michaelshiloh/NetworkEverything](https://github.com/michaelshiloh/NetworkEverything/)
 
+[Current Homework
+Assignment](https://github.com/michaelshiloh/NetworkEverything/blob/master/schedule.md#current-homework-assignment)
+
 # Schedule
 
 This schedule is subject to change
