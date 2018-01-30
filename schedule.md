@@ -102,16 +102,19 @@ shows how to use the `analogWrite()` function
 
 ### current-homework-assignment
 #### Homework due Thursday February 1 
+
 **Do**
 - Find an example of a **useful** IoT device  
 - Find an example of a **useless** IoT device  
 - Write a post in your repository. Provide links to these devices and discuss
 your reasons   
+
 **Update**  
 I've assigned some reading for next Tuesday. You may want to get started now.
 See further below.  
 
-Tentative homework for Tuesday February 5  
+#### Tentative homework for Tuesday February 5  
+
 **Read**  
 – Linked, Chapter 4
 - One of the Shift registers
