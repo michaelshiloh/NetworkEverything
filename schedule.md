@@ -103,21 +103,21 @@ shows how to use the `analogWrite()` function
 ### current-homework-assignment
 #### Homework due Thursday February 1 
 **Do**
-- Find an example of a **useful** IoT device
-- Find an example of a **useless** IoT device
+- Find an example of a **useful** IoT device  
+- Find an example of a **useless** IoT device  
 - Write a post in your repository. Provide links to these devices and discuss
-your reasons 
-**Update**
+your reasons   
+**Update**  
 I've assigned some reading for next Tuesday. You may want to get started now.
-See further below.
+See further below.  
 
-Tentative homework for Tuesday February 5
-**Read**
+Tentative homework for Tuesday February 5  
+**Read**  
 – Linked, Chapter 4
 - One of the Shift registers
-	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)
+	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)  
 - The Sparkfun Serial communication
-	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)
+	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)  
 
 #### Thursday February 1 9am - 11:40
 - Serial communication
