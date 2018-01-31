@@ -28,3 +28,5 @@ Student Github repositories
 [Joseph](https://github.com/JosephNartey/Joseph_NetworkEverything)  
 [Ming](https://github.com/mingwho/NetworkEverything)
 [Ahram](https://github.com/aram432/Response_0124)
+[Heorhii](https://github.com/HeorhiiS/Network-everything)
+

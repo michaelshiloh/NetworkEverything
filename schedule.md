@@ -123,6 +123,8 @@ See further below.
 	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)  
 
 #### Thursday February 1 9am - 11:40
+- Share your IoT failures and successes
+	- One of you did not mail me his Github link
 - `while()` loops  
 - `for()` loops  
 - arrays  
@@ -137,7 +139,7 @@ See further below.
 		- Graph (single number from Arduino to Processing)  
 		- VirtualColorMixer (multiple numbers from Arduino to Processing)  
     If either of these examples give you Nan (Not a Number) errors, replace
-		serialEvent() with
+		`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
 	- Bidirectional  
 		- Arduino SerialCallAndResponse example  
