@@ -123,11 +123,29 @@ See further below.
 	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)  
 
 #### Thursday February 1 9am - 11:40
-- Serial communication
-- `for()` loops
-- binary numbers
+- `while()` loops  
+- `for()` loops  
+- arrays  
+- Why do we have ASCII code for digits?  
+- Arduino/Processing communication examples (File -> Examples -> Communication):  
+	- From Processing to Arduino  
+		- Dimmer (single number from Processing to Arduino)  
+		- PhysicalPixel (single ASCII value from Processing to Arduino)  
+		- ReadAsciiString (multiple ASCII value from Processing to Arduino)  
+            What can go wrong here?  
+	- From Arduino to Processing  
+		- Graph (single number from Arduino to Processing)  
+		- VirtualColorMixer (multiple numbers from Arduino to Processing)  
+    If either of these examples give you Nan (Not a Number) errors, replace
+		serialEvent() with
+		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
+	- Bidirectional  
+		- Arduino SerialCallAndResponse example  
+- shift registers  
+- binary numbers  
 
-Tentative homework for Thursday February 7
+Tentative homework for Thursday February 7  
+**Read**  
 – Designing Connected Products Ch 3 & 5.
 
 
