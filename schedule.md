@@ -126,7 +126,10 @@ See further below.
 - Share your IoT failures and successes  
 	- One of you did not mail me his Github link  
 - Serial communications  
-	- More than one bit on one wire  
+	- Review: Last time we exchanged 1 bit (one switch, one LED) on one wire  
+	- What if we have 15 switches and 15 LEDs?  
+		- Counting in Binary  
+		- More than one bit on one wire  
 	- What about information that isn't numbers?  
 		- ASCII encoding  
 		- Why do we have ASCII code for digits?    
