@@ -123,12 +123,16 @@ See further below.
 	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)  
 
 #### Thursday February 1 9am - 11:40
-- Share your IoT failures and successes
-	- One of you did not mail me his Github link
+- Share your IoT failures and successes  
+	- One of you did not mail me his Github link  
+- Serial communications  
+	- More than one bit on one wire  
+	- What about information that isn't numbers?  
+		- ASCII encoding  
+		- Why do we have ASCII code for digits?    
 - `while()` loops  
 - `for()` loops  
 - arrays  
-- Why do we have ASCII code for digits?  
 - Arduino/Processing communication examples (File -> Examples -> Communication):  
 	- From Processing to Arduino  
 		- Dimmer (single number from Processing to Arduino)  
