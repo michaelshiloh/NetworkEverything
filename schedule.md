@@ -136,16 +136,19 @@ See further below.
 
 **Do**
 
-- Communication examples from Arduino to Processing  
-	- VirtualColorMixer (multiple numbers from Arduino to Processing: 
-		Three number values from Arduino control color of Processing canvas). 
-		Refer to the Virtual Color Mixer
-		[tutorial](https://www.arduino.cc/en/Tutorial/VirtualColorMixer) but don't
-		use the sensors it pictures; instead use the small blue potentiometers
-		that are in your kit. **If you are new to potentiometers please ask for
-		help, either from me or someone in the lab**    
-		If this example give you Nan (Not a Number) errors, replace
-		`serialEvent()` with
+- Do the VirtualColorMixer example from the Arduino Communication examples,
+	which sends multiple bytes from Arduino to Processing to control the color
+	of the Processing canvas. 
+	Refer to the Virtual Color Mixer
+	[tutorial](https://www.arduino.cc/en/Tutorial/VirtualColorMixer) but don't
+	use the sensors it pictures; instead use the small blue potentiometers
+	that are in your kit. 
+	
+	**If you are new to potentiometers please ask for
+	help, either from me or someone in the lab** 
+
+	If this example give you Nan (Not a Number) errors, replace
+	`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
 
 **Read**  
