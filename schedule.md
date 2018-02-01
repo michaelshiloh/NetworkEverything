@@ -113,15 +113,6 @@ your reasons
 I've assigned some reading for next Tuesday. You may want to get started now.
 See further below.  
 
-#### Tentative homework for Tuesday February 5  
-
-**Read**  
-- Linked, Chapter 4
-- One of the Shift registers
-	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)  
-- The Sparkfun Serial communication
-	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial)  
-
 #### Thursday February 1 9am - 11:40
 - Share your IoT failures and successes  
 	- One of you did not mail me his Github link  
@@ -133,28 +124,60 @@ See further below.
 	- What about information that isn't numbers?  
 		- ASCII encoding  
 		- Why do we have ASCII code for digits?    
-- `while()` loops  
 - `for()` loops  
-- arrays  
 - Arduino/Processing communication examples (File -> Examples -> Communication):  
 	- From Processing to Arduino  
 		- Dimmer (single number from Processing to Arduino)  
-		- PhysicalPixel (single ASCII value from Processing to Arduino)  
-		- ReadAsciiString (multiple ASCII value from Processing to Arduino)  
-            What can go wrong here?  
 	- From Arduino to Processing  
 		- Graph (single number from Arduino to Processing)  
-		- VirtualColorMixer (multiple numbers from Arduino to Processing)  
-    If either of these examples give you Nan (Not a Number) errors, replace
+		- Arduino SerialCallAndResponse example  
+- binary numbers  
+
+#### Homework for Tuesday February 5  
+
+**Do**
+
+- Communication examples from Arduino to Processing  
+	- VirtualColorMixer (multiple numbers from Arduino to Processing: 
+		Three number values from Arduino control color of Processing canvas). 
+		Refer to the Virtual Color Mixer
+		[tutorial](https://www.arduino.cc/en/Tutorial/VirtualColorMixer) but don't
+		use the sensors it pictures; instead use the small blue potentiometers
+		that are in your kit. **If you are new to potentiometers please ask for
+		help, either from me or someone in the lab**    
+		If this example give you Nan (Not a Number) errors, replace
+		`serialEvent()` with
+		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
+
+**Read**  
+
+- Linked, Chapter 4  
+- One of the Shift registers
+	[resources](https://github.com/michaelshiloh/resourcesForClasses#shift-register-resources)    
+- The Sparkfun Serial communication
+	[tutorial](https://github.com/michaelshiloh/resourcesForClasses#sparkfun-serial-communication-tutorial).
+	This is pretty detailed - you don't need to understand everything but try to
+	familiarize yourself with the main concepts  
+- One of the soldering
+	[resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)  
+
+#### Tuesday 5 February 2018 9am - 10:15 (Tentative)
+- `while()` loops  
+- arrays  
+	- From Processing to Arduino  
+		- ReadAsciiString (multiple ASCII value from Processing to Arduino:
+			Three numeric values from Processing control an RGB LED on Arduino)
+            What can go wrong here?  
+    If this example give you Nan (Not a Number) errors, replace
 		`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
 	- Bidirectional  
-		- Arduino SerialCallAndResponse example  
 - shift registers  
-- binary numbers  
 
 Tentative homework for Thursday February 7  
+
 **Read**  
+
 – Designing Connected Products Ch 3 & 5.
 
 
