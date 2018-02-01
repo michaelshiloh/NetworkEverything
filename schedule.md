@@ -100,7 +100,6 @@ shows how to use the `analogWrite()` function
 - turn light on button pressed
 - Can we use this to communicate?
 
-### current-homework-assignment
 #### Homework due Thursday February 1 
 
 **Do**
@@ -130,9 +129,9 @@ See further below.
 		- Dimmer (single number from Processing to Arduino)  
 	- From Arduino to Processing  
 		- Graph (single number from Arduino to Processing)  
-		- Arduino SerialCallAndResponse example  
 - binary numbers  
 
+### current-homework-assignment
 #### Homework for Tuesday February 5  
 
 **Do**
@@ -171,6 +170,8 @@ See further below.
     If this example give you Nan (Not a Number) errors, replace
 		`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
+	- From Arduino to Processing  
+		- Arduino SerialCallAndResponse example  
 	- Bidirectional  
 - shift registers  
 
