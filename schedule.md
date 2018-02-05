@@ -164,17 +164,21 @@ See further below.
 	[resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)  
 
 #### Tuesday 6 February 2018 9am - 10:15 (Tentative)
+
 **Announcements**  
-	- **Sign Up for the IM Student Email List**   
-		Have a question?
-		Looking for a place to share ideas?
-		The IM student mailing list is a student-only group
-		where you can ask for help,
-		post information about cool events
-		and anything else you think would benefit your fellow makers
-		Sign up by sending an email to **mk4908@nyu.edu**  
-	- [24X](http://nyuad.im/24x)  
-	- Sign up for Interactive Media [newsletter](http://nyuad.im/newsletter)
+
+- **Sign Up for the IM Student Email List**   
+	Have a question?
+	Looking for a place to share ideas?
+	The IM student mailing list is a student-only group
+	where you can ask for help,
+	post information about cool events
+	and anything else you think would benefit your fellow makers
+	Sign up by sending an email to **mk4908@nyu.edu**  
+- [24X](http://nyuad.im/24x)  
+- Sign up for Interactive Media [newsletter](http://nyuad.im/newsletter)
+
+**Lesson**
 
 - Review VirtualColorMixer
 	- `while ( > 0)`
