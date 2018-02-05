@@ -163,7 +163,7 @@ See further below.
 - One of the soldering
 	[resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)  
 
-#### Tuesday 6 February 2018 9am - 10:15 (Tentative)
+#### Tuesday 6 February 2018 9am - 10:15 
 
 **Announcements**  
 
@@ -175,7 +175,7 @@ See further below.
 	post information about cool events
 	and anything else you think would benefit your fellow makers
 	Sign up by sending an email to **mk4908@nyu.edu**  
-- [24X](http://nyuad.im/24x)  
+- [24X](http://nyuad.im/24x) event  
 - Sign up for Interactive Media [newsletter](http://nyuad.im/newsletter)
 
 **Lesson**
