@@ -132,7 +132,7 @@ See further below.
 - binary numbers  
 
 ### current-homework-assignment
-#### Homework for Tuesday February 5  
+#### Homework for Tuesday February 6  
 
 **Do**
 
@@ -163,22 +163,45 @@ See further below.
 - One of the soldering
 	[resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)  
 
-#### Tuesday 5 February 2018 9am - 10:15 (Tentative)
-- `while()` loops  
-- arrays  
-	- From Processing to Arduino  
-		- ReadAsciiString (multiple ASCII value from Processing to Arduino:
+#### Tuesday 6 February 2018 9am - 10:15 (Tentative)
+**Announcements**
+	- **Sign Up for the IM Student Email List** 
+		Have a question?
+		Looking for a place to share ideas?
+		The IM student mailing list is a student-only group
+		where you can ask for help,
+		post information about cool events
+		and anything else you think would benefit your fellow makers
+		Sign up by sending an email to **mk4908@nyu.edu**
+	- [24X](http://nyuad.im/24x)
+	- Sign up for Interactive Media [newsletter](http://nyuad.im/newsletter)
+
+- Review VirtualColorMixer
+	- `while ( > 0)`
+	- `Serial.available()`
+	- `Serial.parseInt()`
+	- `if (Serial.read() == '\n')`
+	- `constrain(red, 0, 255)`
+	- `green = 255 - constrain(green, 0, 255)`
+	- `analogWrite(bluePin, blue)`
+      - `Serial.print(red, HEX)`
+
+- Sending data from Processing to Arduino  
+	- ReadAsciiString (multiple ASCII value from Processing to Arduino:
 			Three numeric values from Processing control an RGB LED on Arduino)
-            What can go wrong here?  
-    If this example give you Nan (Not a Number) errors, replace
+						What can go wrong here?  
+		If this example give you Nan (Not a Number) errors, replace
 		`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
-	- From Arduino to Processing  
-		- Arduino SerialCallAndResponse example  
-	- Bidirectional  
-- shift registers  
 
-Tentative homework for Thursday February 7  
+- arrays  
+	- `for()` loops
+	- Array example
+
+- Bidirectional  communication between  Arduino and Processing  
+	- Arduino SerialCallAndResponse example  
+
+Tentative homework for Thursday February 8  
 
 **Read**  
 
