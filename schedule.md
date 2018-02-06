@@ -180,45 +180,47 @@ See further below.
 
 **Lesson**
 
-Homework questions
-
 - Review VirtualColorMixer
-
-- Sending data from Processing to Arduino  
-	- ReadAsciiString (multiple ASCII value from Processing to Arduino:
-		Three numeric values from Processing control an RGB LED on Arduino)  
-		What can go wrong here?    
-		If this example give you Nan (Not a Number) errors, replace
+- Overview ReadASCIIString
+	- Sending three numeric values from laptop control an RGB LED on Arduino)  
+	- If this example give you Nan (Not a Number) errors, replace
 		`serialEvent()` with
-		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
-
-	- `while ( > 0)`
-	- `Serial.available()`
-	- `Serial.parseInt()`
-	- `if (Serial.read() == '\n')`
-	- `constrain(red, 0, 255)`
-	- `green = 255 - constrain(green, 0, 255)`
-	- `analogWrite(bluePin, blue)`
-	- `Serial.print(red, HEX)`
-
-- Arrays  
-	- `for()` loops
-	- Array example
-
-- Bidirectional  communication between  Arduino and Processing  
-	- Arduino SerialCallAndResponse example  
+		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)    
+	- Important concepts to understand  
+		- `while ( > 0)`  
+		- `Serial.available()`  
+		- `Serial.parseInt()`  
+		- `if (Serial.read() == '\n')`  
+		- `constrain(red, 0, 255)`  
+		- `green = 255 - constrain(green, 0, 255)`  
+		- `analogWrite(bluePin, blue)`  
+		- `Serial.print(red, HEX)`  
 
 Tentative homework for Thursday February 8  
 
 **Read**  
 
-– Designing Connected Products Ch 3 & 5.
+- Designing Connected Products chapters 3 & 5.
+- Array example
 
 **Do**
 
-- Install the WiFi101 library
+- Read and do the Arduino `for()` loop
+	[tutorial](https://www.arduino.cc/en/Tutorial/ForLoopIteration)  
+- Install the Arduino WiFi101 library
+	1. Open Arduino -> Sketch -> Include Library -> Manage Libraries
+	2. Type **wifi101** in the search box (top right)  
+	3. Select the WiFi101 library (it's usually the first one)  
+	4. Click the **Install** button  
+	5. Close the Library Manager  
+
 - Upload and run the WiFi101 ScanNetworks example
-- Solder pins to LCD
+	1. Open Arduino -> File -> Examples -> Wifi101 -> ScanNetworks
+	2. Upload and run. You should see some WiFi networks  
+
+#### Thursday February 8 9am - 11:40 (tentative)
+
+- WiFi
 
 
 #### Tentative order of topics
