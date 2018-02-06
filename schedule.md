@@ -180,6 +180,8 @@ See further below.
 
 **Lesson**
 
+Homework questions
+
 - Review VirtualColorMixer
 	- `while ( > 0)`
 	- `Serial.available()`
@@ -210,6 +212,12 @@ Tentative homework for Thursday February 8
 **Read**  
 
 – Designing Connected Products Ch 3 & 5.
+
+**Do**
+
+- Install the WiFi101 library
+- Upload and run the WiFi101 ScanNetworks example
+- Solder pins to LCD
 
 
 #### Tentative order of topics
