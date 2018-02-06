@@ -131,7 +131,6 @@ See further below.
 		- Graph (single number from Arduino to Processing)  
 - binary numbers  
 
-### current-homework-assignment
 #### Homework for Tuesday February 6  
 
 **Do**
@@ -196,17 +195,20 @@ See further below.
 		- `analogWrite(bluePin, blue)`  
 		- `Serial.print(red, HEX)`  
 
-Tentative homework for Thursday February 8  
+### current-homework-assignment
+#### Homework for Thursday February 8  
 
 **Read**  
 
-- Designing Connected Products chapters 3 & 5.
-- Array example
+- Designing Connected Products chapter 3
 
 **Do**
 
 - Read and do the Arduino `for()` loop
 	[tutorial](https://www.arduino.cc/en/Tutorial/ForLoopIteration)  
+- Read and do the Arduino array
+	[tutorial](https://www.arduino.cc/en/Tutorial/Arrays). Note that you can use
+	the same circuit as the previous tutorial but double check the pin numbers  
 - Install the Arduino WiFi101 library
 	1. Open Arduino -> Sketch -> Include Library -> Manage Libraries
 	2. Type **wifi101** in the search box (top right)  
@@ -221,6 +223,9 @@ Tentative homework for Thursday February 8
 #### Thursday February 8 9am - 11:40 (tentative)
 
 - WiFi
+
+Homework (Tentative)
+- Read Designing Connected Products chapters 3
 
 
 #### Tentative order of topics
