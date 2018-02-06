@@ -102,6 +102,7 @@ Failure to participate in discussions and demonstrate that the readings
 have been completed will affect the participation component of your grade.
 You are expected to pay attention to your peer’s work and presentations in class. 
 
+– Being late 20 minutes or more will count as an absence
 – More than one unexcused absence will result in a lower final grade (a B+ would become a B).   
 – More than three unexcused absences will result in failure. If you’re going to be late or absent, email me in advance.  
 – If you have an emergency, please let me know as soon as possible.  
@@ -137,7 +138,6 @@ Midterm project : 15%
 ### Required Reading
 
 – Rowland, Goodman, Charlier, Light & Lui. Designing Connected Projects, O’Reilly, 2015.  
-– Faludi, Robert. Building Wireless Sensor Networks, O’Reilly, 2011.  
 – Linked: The New Science Of Networks Science Of Networks, Basic Books, 2014  
 – Igoe, Tom. Making Things Talk 2nd Edition. O’Reilly Media/Make, 2011  
 

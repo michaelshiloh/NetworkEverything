@@ -183,14 +183,6 @@ See further below.
 Homework questions
 
 - Review VirtualColorMixer
-	- `while ( > 0)`
-	- `Serial.available()`
-	- `Serial.parseInt()`
-	- `if (Serial.read() == '\n')`
-	- `constrain(red, 0, 255)`
-	- `green = 255 - constrain(green, 0, 255)`
-	- `analogWrite(bluePin, blue)`
-	- `Serial.print(red, HEX)`
 
 - Sending data from Processing to Arduino  
 	- ReadAsciiString (multiple ASCII value from Processing to Arduino:
@@ -199,6 +191,15 @@ Homework questions
 		If this example give you Nan (Not a Number) errors, replace
 		`serialEvent()` with
 		[this](https://github.com/michaelshiloh/ArduinoExamples/blob/master/twoWayComms/improvedGraphSerialEvent/improvedGraphSerialEvent.ino)  
+
+	- `while ( > 0)`
+	- `Serial.available()`
+	- `Serial.parseInt()`
+	- `if (Serial.read() == '\n')`
+	- `constrain(red, 0, 255)`
+	- `green = 255 - constrain(green, 0, 255)`
+	- `analogWrite(bluePin, blue)`
+	- `Serial.print(red, HEX)`
 
 - Arrays  
 	- `for()` loops
