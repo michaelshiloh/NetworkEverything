@@ -223,9 +223,30 @@ See further below.
 #### Thursday February 8 9am - 11:40 (tentative)
 
 - WiFi
+	- any problems running the WiFi101 ScanNetworks example?
+
+	- ConnectionNoEncyption example
+		- How to connect to a network with no encryption
+			- SSID: IMLab
+
+	- WiFiWebServer example
+		- Sensor information to a web page
+		- Reads the analog inputs and present the finding on a web page
+
+	- SimpleWebServerWifi example
+		- Web page controls an actuator
+		- Presents a link on a web page; click to control LED on Arduino
+
+	- If we need to use my own AP:  
+````
+	#define SECRET_SSID "Cisco70085"    
+	#define SECRET_PASS "michaelshiloh"    
+````
 
 Homework (Tentative)
 - Read Designing Connected Products chapters 3
+- Read Making Things Talk
+- Build something 
 
 
 #### Tentative order of topics
