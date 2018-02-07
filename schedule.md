@@ -244,7 +244,7 @@ See further below.
 ````
 
 Homework (Tentative)
-- Read Designing Connected Products chapters 3
+- Read Designing Connected Products chapters 5
 - Read Making Things Talk
 - Build something 
 
