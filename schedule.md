@@ -195,7 +195,6 @@ See further below.
 		- `analogWrite(bluePin, blue)`  
 		- `Serial.print(red, HEX)`  
 
-### current-homework-assignment
 #### Homework for Thursday February 8  
 
 **Read**  
@@ -243,10 +242,23 @@ See further below.
 	#define SECRET_PASS "michaelshiloh"    
 ````
 
-Homework (Tentative)
-- Read Designing Connected Products chapters 5
-- Read Making Things Talk
-- Build something 
+### current-homework-assignment
+
+#### Homework for Tuesday 6 February 2018 
+
+- Read Designing Connected Products chapter 5  
+- Read Making Things Talk chapter 3. There are a lot of technical details
+	here. Don't worry about understanding them, just read and get a general
+	sense of things.  
+- Do again the Simple Web Server WiFi
+	[tutorial](https://www.arduino.cc/en/Tutorial/Wifi101SimpleWebServerWiFi)  
+- Do again the WiFi Web Server
+	[tutorial](https://www.arduino.cc/en/Tutorial/Wifi101WiFiWebServer). 
+	Start with the
+	same circuit that we used in class (two light sensors and one momentary
+	switch (pushbutton), and add three potentiometers to the other
+	analog inputs. Remember to test each of these sensors individually before
+	you attempt the web server.  
 
 
 #### Tentative order of topics
