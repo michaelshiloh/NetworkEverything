@@ -260,6 +260,24 @@ See further below.
 	analog inputs. Remember to test each of these sensors individually before
 	you attempt the web server.  
 
+#### Tuesday 13 February 2018 9am - 10:15 
+
+- Review homework. Did you have any difficulties?
+
+- web pages vs. UDP
+
+- UDP   
+	- WiFiUdpSendReceiveString (built-in example)  
+	- [simpleWiFiUdpInitiator](src/simpleWiFiUdpInitiator/simpleWiFiUdpInitiator.ino)
+
+- Review my server
+
+Homework (tentative):
+
+- Given my server, design an IoT product.
+	- Design the logic of the game
+	- Decide what electronics you need
+	- Lay out the rules of the game
 
 #### Tentative order of topics
 
