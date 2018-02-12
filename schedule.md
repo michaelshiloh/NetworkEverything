@@ -244,7 +244,7 @@ See further below.
 
 ### current-homework-assignment
 
-#### Homework for Tuesday 6 February 2018 
+#### Homework for Tuesday 13 February 2018 
 
 - Read Designing Connected Products chapter 5  
 - Read Making Things Talk chapter 3. There are a lot of technical details
