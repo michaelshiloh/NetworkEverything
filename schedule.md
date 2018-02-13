@@ -264,24 +264,37 @@ See further below.
 
 ### current-homework-assignment
 
+**Project**: Design an IoT device. It can be practical or silly, a game, or
+	anything else you fancy. You must tell a story as to why this device is
+	relevant, and design the sensors, actuators, and interface in a way that
+	fits this story.
+
 #### Homework due Thursday February 15 
 
-1. Build the circuit bellow on a perforated breadboard as we discussed in
+Build the circuit bellow on a perforated breadboard as we discussed in
 class:
 
 ![](media/screwTerminalDigitalInput_schem.png)
 
-You may choose to use the switch that mounts on the breadboard and skip
+* You may choose to use the switch that mounts on the breadboard and skip
 the screw terminals, or use the screw terminals and solder wires to a panel
 mounted switch.
 
-Use stranded wire on the switch
+* If you have used a different input already that's fine
 
-Use solid core wire on the board
+* Use only stranded wire on the switch
 
-Use red for 3.3V (or Vcc) and **nothing else**
+* Use only solid core wire on the board
 
-Use black for GND and **nothing else**
+* Use red for 3.3V (or Vcc) and **nothing else**
+
+* Use black for GND and **nothing else**
+
+* Double check with a classmate or someone else that your circuit is correct
+before plugging it in
+
+* Test using the basic example DigitalReadSerial. Don't forget to change the
+pin number to match your board.
 
 #### Thursday February 15 9am - 11:40 (tentative)
 
@@ -294,11 +307,6 @@ Use black for GND and **nothing else**
 - Review homework  
 	- Did you have any difficulties?  
 	- What other sensors can you use?
-
-- Project: Design an IoT device. It can be practical or silly, a game, or
-	anything else you fancy. You must tell a story as to why this device is
-	relevant, and design the sensors, actuators, and interface in a way that
-	fits this story.
 
 - web pages vs. UDP
 
