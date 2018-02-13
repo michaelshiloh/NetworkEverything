@@ -242,8 +242,6 @@ See further below.
 	#define SECRET_PASS "michaelshiloh"    
 ````
 
-### current-homework-assignment
-
 #### Homework for Tuesday 13 February 2018 
 
 - Read Designing Connected Products chapter 5  
@@ -261,6 +259,31 @@ See further below.
 	you attempt the web server.  
 
 #### Tuesday 13 February 2018 9am - 10:15 
+
+- Soldering and construction techniques
+
+### current-homework-assignment
+
+#### Homework due Thursday February 15 
+
+1. Build the circuit bellow on a perforated breadboard as we discussed in
+class:
+
+![](media/screwTerminalDigitalInput_schem.png)
+
+You may choose to use the switch that mounts on the breadboard and skip
+the screw terminals, or use the screw terminals and solder wires to a panel
+mounted switch.
+
+Use stranded wire on the switch
+
+Use solid core wire on the board
+
+Use red for 3.3V (or Vcc) and **nothing else**
+
+Use black for GND and **nothing else**
+
+#### Thursday February 15 9am - 11:40 (tentative)
 
 - What have we learned?  
 	- Simple programming  
