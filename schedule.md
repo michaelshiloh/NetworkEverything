@@ -266,7 +266,9 @@ See further below.
 
 #### Homework due Thursday February 15 
 
-**Project**: Design an IoT device. It can be practical or silly, a game, or
+**Design Project** 
+
+Design an IoT device. It can be practical or silly, a game, or
 anything else you fancy. You must tell a story as to why this device is
 relevant, and design the sensors, actuators, and interface in a way that
 fits this story.
@@ -276,6 +278,8 @@ fits this story.
 * Describe in words or in a diagram how your program might be structured.
 
 * Document your work in a file in your github repository
+
+**Introduction to Construction Techniques**
 
 Build the circuit bellow on a perforated breadboard as we discussed in
 class:
