@@ -262,7 +262,20 @@ See further below.
 
 #### Tuesday 13 February 2018 9am - 10:15 
 
-- Review homework. Did you have any difficulties?
+- What have we learned?  
+	- Simple programming  
+	- Sensors (what types?)  
+	- Actuators (what types?)  
+	- Communication methods (serial, WiFi)  
+
+- Review homework  
+	- Did you have any difficulties?  
+	- What other sensors can you use?
+
+- Project: Design an IoT device. It can be practical or silly, a game, or
+	anything else you fancy. You must tell a story as to why this device is
+	relevant, and design the sensors, actuators, and interface in a way that
+	fits this story.
 
 - web pages vs. UDP
 
