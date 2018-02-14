@@ -30,7 +30,7 @@ int keyIndex = 0;            // your network key Index number (needed only for W
 unsigned int localPort = 2390;      // local port to listen for UDP packets
 
 unsigned int followerPort = 2390;
-IPAddress followerAddr(192, 168, 1, 104);
+IPAddress followerAddr(192, 168, 1, 111); /// CHANGE THIS
 
 const int PACKET_SIZE = 50; //arbitrary; don't forget this
 
@@ -74,34 +74,28 @@ void setup()
 
 void loop()
 {
-  //  itoa(millis(), packetBuffer, 10);
-  //  Serial.print("My time: ");
-
-  itoa(analogRead(A3), packetBuffer, 10);
-  Serial.print("My analog port: ");
-
-  Serial.println(packetBuffer);
-
-  Serial.println("Beginning packet to follower");
-  Udp.beginPacket(followerAddr, followerPort); // address and port of follower
-
-  Serial.println("Sending packet to follower");
-  Udp.write(packetBuffer, PACKET_SIZE);
-
-  Serial.println("Ending packet to follower");
+  Serial.println("prepareing packet for server");
+  //send a packet
+  Udp.beginPacket(followerAddr, followerPort);
+  Udp.write(pass, 10);
   Udp.endPacket();
-
-  Serial.println("Packet sent to follower; awaiting reply");
+ 
+  //Serial.print ("Checking incoming ...  ");
   // wait to see if a reply is available
-  delay(1000);
+
   if ( Udp.parsePacket() ) {
-    Serial.print("packet received: ");
+    Serial.println("packet received: ");
     // We've received a packet, read the data from it
     Udp.read(packetBuffer, PACKET_SIZE); // read the packet into the buffer
-    Serial.println((char *)packetBuffer);
+    //Serial.println((char *)packetBuffer);
+
+    //char temp[10];
+    //Serial.println(itoa(packetBuffer[0], temp, 10));
+    Serial.println(packetBuffer);
+  } else {
+    Serial.println("... Nothing received");
   }
-  // wait a bit before doing it again
-  delay(10);
+  delay(100);
 }
 
 void printWiFiStatus() {
