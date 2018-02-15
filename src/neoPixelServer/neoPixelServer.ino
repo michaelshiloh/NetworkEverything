@@ -110,26 +110,28 @@ void printNeoPixelBuffer() {
     Serial.print("Pixel number:\t");
     Serial.print(i);
 
-    Serial.print("Red:\t");
-    byte redByte = (byte)(packetBuffer[i] + 0);
+    Serial.print("\tRed:\t");
+    byte redByte = (byte)(packetBuffer[i + 0]);
     char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
-    itoa(-redByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    itoa(redByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.print(wordBuffer);
 
-    Serial.print("Green:\t");
-    byte greenByte = (byte)(packetBuffer[i] + 0);
+    Serial.print("\tGreen:\t");
+    byte greenByte = (byte)(packetBuffer[i + 1]);
     // clear the buffer   char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
-    itoa(-redByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    itoa(greenByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.print(wordBuffer);
 
     Serial.print("\tBlue:\t");
-    byte blueByte = (byte)(packetBuffer[i] + 0);
+    byte blueByte = (byte)(packetBuffer[i + 2]);
     //clear the buffer   char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
-    itoa(-redByte, wordBuffer, 10); //(integer, yourBuffer, base)
-    Serial.print(wordBuffer);
+    itoa(blueByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    Serial.println(wordBuffer);
 
-
-    Serial.println("");
+    //    Serial.print("\tcolors:\t");
+    //    colors = packetBuffer[i];
+    //
+    //    erial.println("");
   }
 
 }
