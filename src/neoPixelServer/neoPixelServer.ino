@@ -104,10 +104,12 @@ void loop() {
 
 void printNeoPixelBuffer() {
 
-  for (int i = 0; i < NUM_OF_PIXELS; i++) {
+  for (int i = 0; i < NUM_OF_PIXELS * sizeof(neoPixelBrightness); i += sizeof(neoPixelBrightness) ) {
+    //  for (int i = 0; i < NUM_OF_PIXELS; i = 3 * i) {
+    Serial.print("sizeof neoPixelBrightness:\t");
+    Serial.print(sizeof(neoPixelBrightness));
 
-
-    Serial.print("Pixel number:\t");
+    Serial.print("\tPixel number:\t");
     Serial.print(i);
 
     Serial.print("\tRed:\t");
@@ -118,21 +120,19 @@ void printNeoPixelBuffer() {
 
     Serial.print("\tGreen:\t");
     byte greenByte = (byte)(packetBuffer[i + 1]);
-    // clear the buffer   char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
     itoa(greenByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.print(wordBuffer);
 
     Serial.print("\tBlue:\t");
     byte blueByte = (byte)(packetBuffer[i + 2]);
-    //clear the buffer   char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
     itoa(blueByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.println(wordBuffer);
 
-    //    Serial.print("\tcolors:\t");
-    //    colors = packetBuffer[i];
-    //
-    //    erial.println("");
+
+   // i = (i + 1) * 3;
   }
+  Serial.println("end of printNeoPixelBuffer");
+
 
 }
 void printWiFiStatus() {
