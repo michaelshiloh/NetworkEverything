@@ -328,6 +328,8 @@ pin number to match your board.
 
 Homework (tentative):
 
+- For Ming and Gosha https://learn.adafruit.com/neopixel-levelshifter?view=all
+
 - Given my server, design an IoT product.
 	- Design the logic of the game
 	- Decide what electronics you need
