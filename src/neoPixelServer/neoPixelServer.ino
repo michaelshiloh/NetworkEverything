@@ -1,19 +1,13 @@
 /*
   WiFi UDP Send and Receive String
-
-  This sketch wait an UDP packet on localPort using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client on port remotePort
-
-  Circuit:
-   WiFi shield attached
-
-  created 30 December 2012
   by dlf (Metodo2 srl)
+
+  and strandTest by Adafruit
 
 */
 
 
-#include <SPI.h>
+//#include <SPI.h> not needed i don't think no more
 #include <WiFi101.h>
 #include <WiFiUdp.h>
 
@@ -28,6 +22,23 @@ unsigned int localPort = 2390;      // local port to listen on
 
 char packetBuffer[255]; //buffer to hold incoming packet
 char  ReplyBuffer[] = "acknowledged";       // a string to send back
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+#include <avr/power.h>
+#endif
+
+#define PIN 11
+
+// Parameter 1 = number of pixels in strip
+// Parameter 2 = Arduino pin number (most are valid)
+// Parameter 3 = pixel type flags, add together as needed:
+//   NEO_KHZ800  800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
+//   NEO_KHZ400  400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
+//   NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
+//   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
+//   NEO_RGBW    Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(60, PIN, NEO_GRB + NEO_KHZ800);
 
 WiFiUDP Udp;
 
@@ -71,6 +82,9 @@ void setup() {
   Serial.println("\nStarting connection to server...");
   // if you get a connection, report back via serial:
   Udp.begin(localPort);
+
+  strip.begin();
+  strip.show(); // Initialize all pixels to 'off'
 }
 
 void loop() {
@@ -100,57 +114,65 @@ void loop() {
     Udp.write(ReplyBuffer);
     Udp.endPacket();
   }
+
+  delay(1000);
 }
 
 void printNeoPixelBuffer() {
 
+
+  // we have pixels 0 through 11. Each pixel consists of 3 bytes
   for (int i = 0; i < NUM_OF_PIXELS * sizeof(neoPixelBrightness); i += sizeof(neoPixelBrightness) ) {
-    //  for (int i = 0; i < NUM_OF_PIXELS; i = 3 * i) {
-    Serial.print("sizeof neoPixelBrightness:\t");
-    Serial.print(sizeof(neoPixelBrightness));
 
     Serial.print("\tPixel number:\t");
     Serial.print(i);
 
     Serial.print("\tRed:\t");
     byte redByte = (byte)(packetBuffer[i + 0]);
-    char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
-    itoa(redByte, wordBuffer, 10); //(integer, yourBuffer, base)
-    Serial.print(wordBuffer);
+    // char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
+    // itoa(redByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    Serial.print((byte) redByte);
 
     Serial.print("\tGreen:\t");
     byte greenByte = (byte)(packetBuffer[i + 1]);
-    itoa(greenByte, wordBuffer, 10); //(integer, yourBuffer, base)
-    Serial.print(wordBuffer);
+    // itoa(greenByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    Serial.print((byte) greenByte);
 
     Serial.print("\tBlue:\t");
     byte blueByte = (byte)(packetBuffer[i + 2]);
-    itoa(blueByte, wordBuffer, 10); //(integer, yourBuffer, base)
-    Serial.println(wordBuffer);
+    //  itoa(blueByte, wordBuffer, 10); //(integer, yourBuffer, base)
+    Serial.println((byte) blueByte);
 
+    for (int i = 0; i < NUM_OF_PIXELS; i ++) {
 
-   // i = (i + 1) * 3;
+      strip.setPixelColor(i,     strip.Color(redByte, greenByte, blueByte));
+      Serial.print("setting pixel:\t");
+      Serial.println(i);
+      strip.show();
+    }
+
+    Serial.println("end of printNeoPixelBuffer");
   }
-  Serial.println("end of printNeoPixelBuffer");
-
-
 }
-void printWiFiStatus() {
-  // print the SSID of the network you're attached to:
-  Serial.print("SSID: ");
-  Serial.println(WiFi.SSID());
 
-  // print your WiFi shield's IP address:
-  IPAddress ip = WiFi.localIP();
-  Serial.print("IP Address: ");
-  Serial.println(ip);
 
-  // print the received signal strength:
-  long rssi = WiFi.RSSI();
-  Serial.print("signal strength (RSSI):");
-  Serial.print(rssi);
-  Serial.println(" dBm");
-}
+
+  void printWiFiStatus() {
+    // print the SSID of the network you're attached to:
+    Serial.print("SSID: ");
+    Serial.println(WiFi.SSID());
+
+    // print your WiFi shield's IP address:
+    IPAddress ip = WiFi.localIP();
+    Serial.print("IP Address: ");
+    Serial.println(ip);
+
+    // print the received signal strength:
+    long rssi = WiFi.RSSI();
+    Serial.print("signal strength (RSSI):");
+    Serial.print(rssi);
+    Serial.println(" dBm");
+  }
 
 
 
