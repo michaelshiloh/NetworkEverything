@@ -108,6 +108,8 @@ void loop() {
     Serial.println(packetBuffer);
 
     printNeoPixelBuffer();
+    // Assuming it's a bunch of neoPixel data display it
+    strip.show();
 
     // send a reply, to the IP address and port that sent us the packet we received
     Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
@@ -129,33 +131,32 @@ void printNeoPixelBuffer() {
 
     Serial.print("\tRed:\t");
     byte redByte = (byte)(packetBuffer[i + 0]);
-    // char wordBuffer[7];         //the ASCII of the integer will be stored in this char array
-    // itoa(redByte, wordBuffer, 10); //(integer, yourBuffer, base)
+
     Serial.print((byte) redByte);
 
     Serial.print("\tGreen:\t");
     byte greenByte = (byte)(packetBuffer[i + 1]);
-    // itoa(greenByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.print((byte) greenByte);
 
     Serial.print("\tBlue:\t");
     byte blueByte = (byte)(packetBuffer[i + 2]);
-    //  itoa(blueByte, wordBuffer, 10); //(integer, yourBuffer, base)
     Serial.println((byte) blueByte);
 
-    for (int i = 0; i < NUM_OF_PIXELS; i ++) {
+    //for (int i = 0; i < NUM_OF_PIXELS; i ++) {
 
-      strip.setPixelColor(i,     strip.Color(redByte, greenByte, blueByte));
-      Serial.print("setting pixel:\t");
-      Serial.println(i);
-      strip.show();
-    }
+    strip.setPixelColor(i, strip.Color(redByte, greenByte, blueByte));
+    Serial.print("setting pixel:\t");
+    Serial.print(i);
+    Serial.print("\tvalue \t");
+    Serial.print(redByte);
+    Serial.print(" \t");
+    Serial.print(greenByte);
+    Serial.print("\t \t");
+    Serial.print(blueByte);
 
-    Serial.println("end of printNeoPixelBuffer");
   }
+
 }
-
-
 
   void printWiFiStatus() {
     // print the SSID of the network you're attached to:
