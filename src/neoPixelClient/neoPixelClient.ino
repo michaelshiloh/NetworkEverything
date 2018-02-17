@@ -27,6 +27,7 @@ char packetBuffer[ PACKET_SIZE]; //buffer to hold incoming and outgoing packets
 // A UDP instance to let us send and receive packets over UDP
 WiFiUDP Udp;
 
+
 struct neoPixelBrightness {
   byte r;
   byte g;
@@ -50,67 +51,6 @@ void setup()
   while (!Serial) {
     ; // wait for serial port to connect. Needed for native USB port only
   }
-
-
-  Serial.println("Initializing pixels");
-
-//  for (int i = 0; i < NUM_OF_PIXELS; i++) {
-//    pixels[0] = {1,2,3};
-//    pixels[1] = {4,5,6};
-//    pixels[2] = {7,8,9};
-//    pixels[3] = {11,22,13};
-//    pixels[4] = {20,30,40};
-//    pixels[5] = {255, 0, 255};
-//  }
-
-  for (int i = 0; i < NUM_OF_PIXELS; i++) {
-    pixels[i] = {255,0,0};
-  }
-  //  pixels = {
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //    {0, 255, 0},
-  //    {0, 0, 255},
-  //    {255, 0, 0},
-  //
-  //  };
-
-
-//  Serial.print("Pixel number:\t");
-//  Serial.println(i);
-//  Serial.print("\tred: \t");
-//  Serial.println(pixels[i].r);
-//  Serial.print("\tgreen: \t");
-//  Serial.println(pixels[i].g);
-//  Serial.print("\tblue: \t");
-//  Serial.println(pixels[i].b);
-  // }
 
   // check for the presence of the shield:
   if (WiFi.status() == WL_NO_SHIELD) {
@@ -139,12 +79,18 @@ void setup()
 
 void loop()
 {
+  // set some colors here
+  neoPixelClientChooseColor(0, 255, 0, 0);
+  neoPixelClientChooseColor(1, 0, 255, 0);
+  neoPixelClientChooseColor(2, 0, 0, 255);
+  neoPixelClientChooseColor(3, 255, 0, 0);
+
+
   Serial.println("preparing packet for server");
   //send a packet
   Udp.beginPacket(followerAddr, followerPort);
   Udp.write((char *)pixels, 36);
   Udp.endPacket();
-
   //Serial.print ("Checking incoming ...  ");
   // wait to see if a reply is available
 
@@ -162,6 +108,17 @@ void loop()
   }
   delay(100);
 }
+
+void neoPixelClientChooseColor(int pixel, byte r, byte g, byte b) {
+  pixels[pixel].r = r;
+
+  pixels[pixel].g = g;
+  pixels[pixel].b = b
+  ;
+}
+
+
+
 
 void printWiFiStatus() {
   // print the SSID of the network you're attached to:
