@@ -29,6 +29,8 @@ _
 	debugging circuits and programs 
 	can be very time consuming.
 
+### current-homework-assignment
+
 #### Homework due Thursday January 31
 - **Read**
 	- Linked, Chapters 1-3
@@ -260,7 +262,6 @@ See further below.
 
 ...here
 
-### current-homework-assignment
 
 #### Homework due Thursday February 15 
 
