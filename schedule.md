@@ -2,7 +2,7 @@
 ## Interactive Media
 # Network Everything
 ### Course Number: IM-UH 2112
-### Spring 2018
+### Spring 2019
 
 **Everything can be found on the course website:**   
 [https://github.com/michaelshiloh/NetworkEverything](https://github.com/michaelshiloh/NetworkEverything/)
@@ -16,7 +16,7 @@ to current homework assignment
 This schedule is subject to change
 _
 
-#### Tuesday 23 January 2018 9am - 10:15
+#### Tuesday 29 January 2019 11:50 AM - 1:05 PM
 - What’s the class about
 - Introductions
 - Syllabus review
@@ -29,11 +29,7 @@ _
 	debugging circuits and programs 
 	can be very time consuming.
 
-#### Homework due Thursday 25 January 
-- **Update**
-	- Storage allocation has not been determined yet so you don't need to label
-	  your shelf yet
-	- I have reduced the amount of reading from Making Things Talk
+#### Homework due Thursday January 31
 - **Read**
 	- Linked, Chapters 1-3
 	-	Making Things Talk 
@@ -53,7 +49,7 @@ _
 	are some instructions
 	- Write a reaction to the three chapters from Linked 
 
-#### Thursday 25 January 9am - 11:40
+#### Thursday January 31 11:50 AM - 2:30 PM
 - Github: 
 	- Use blank lines to separate paragraphs
 	- Rename your file .md to prevent runon lines
@@ -74,7 +70,7 @@ _
 	- Conditionals
 	- Combining examples
 
-#### Homework due Tuesday 30 January 2018
+#### Homework due Tuesday February 5 11:50 AM - 1:05
 - **Reading**
 	- Review the Getting Started with Arduino / Genuino Uno
     [tutorial](https://www.arduino.cc/en/Guide/ArduinoUno)
@@ -93,14 +89,14 @@ shows how to use the `analogWrite()` function
 	- Watch
 		[this](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction) Khan Academy Introduction to number systems and binary
 
-#### Tuesday 30 January 2018 9am - 10:15 
+#### Tuesday February 5 11:50 AM - 1:05
 - Review analog/digial/input/output
 - Variables
 - Conditionals
 - turn light on button pressed
 - Can we use this to communicate?
 
-#### Homework due Thursday February 1 
+#### Homework due Thursday February 7 11:50 AM - 2:30 PM 
 
 **Do**
 - Find an example of a **useful** IoT device  
@@ -108,11 +104,11 @@ shows how to use the `analogWrite()` function
 - Write a post in your repository. Provide links to these devices and discuss
 your reasons   
 
-**Update**  
+**Announcement**  
 I've assigned some reading for next Tuesday. You may want to get started now.
 See further below.  
 
-#### Thursday February 1 9am - 11:40
+#### Thursday February 7 11:50 AM - 2:30 PM 
 - Share your IoT failures and successes  
 	- One of you did not mail me his Github link  
 - Serial communications  
@@ -131,7 +127,7 @@ See further below.
 		- Graph (single number from Arduino to Processing)  
 - binary numbers  
 
-#### Homework for Tuesday February 6  
+#### Homework for Tuesday February 12 11:50 AM - 1:05 PM
 
 **Do**
 
@@ -162,7 +158,7 @@ See further below.
 - One of the soldering
 	[resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)  
 
-#### Tuesday 6 February 2018 9am - 10:15 
+#### Tuesday February 12 11:50 AM - 1:05 PM
 
 **Announcements**  
 
@@ -195,7 +191,7 @@ See further below.
 		- `analogWrite(bluePin, blue)`  
 		- `Serial.print(red, HEX)`  
 
-#### Homework for Thursday February 8  
+#### Homework for Thursday February 14 11:50 AM - 2:30 PM
 
 **Read**  
 
@@ -219,7 +215,7 @@ See further below.
 	1. Open Arduino -> File -> Examples -> Wifi101 -> ScanNetworks
 	2. Upload and run. You should see some WiFi networks  
 
-#### Thursday February 8 9am - 11:40 (tentative)
+#### Thursday February 14 11:50 AM - 2:30 PM
 
 - WiFi
 	- any problems running the WiFi101 ScanNetworks example?
@@ -242,7 +238,7 @@ See further below.
 	#define SECRET_PASS "michaelshiloh"    
 ````
 
-#### Homework for Tuesday 13 February 2018 
+#### Homework for Tuesday February 19 11:50 AM - 1:05 PM
 
 - Read Designing Connected Products chapter 5  
 - Read Making Things Talk chapter 3. There are a lot of technical details
@@ -258,9 +254,11 @@ See further below.
 	analog inputs. Remember to test each of these sensors individually before
 	you attempt the web server.  
 
-#### Tuesday 13 February 2018 9am - 10:15 
+#### Tuesday February 19 11:50 AM - 1:05 PM
 
 - Soldering and construction techniques
+
+...here
 
 ### current-homework-assignment
 

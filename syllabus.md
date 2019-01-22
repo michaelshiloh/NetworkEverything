@@ -15,20 +15,21 @@ _
 
 **Credits Hours:** 4  
 **Classroom:** C3-029 (Art Center - Interactive Media lab)  
-**Time:** Tuesday 9 - 10:15 and Thursday 9 - 11:40  
+**Time:** Tuesday 11:50 - 1:05 and Thursday 11:50 - 2:30
 
 **Recommended Prerequisites:**
-None
+Some exposure to programming, electronics, or working with sensors.
 
 **This course counts towards the following NYUAD degree requirement:** 
-Minor in Interactive Media
+Major in Interactive Media
 
 Room Access Form [http://goo.gl/forms/Mge02MPoCb](http://goo.gl/forms/Mge02MPoCb)
 
 **Instructor:** Michael Shiloh  
 **Email:** mshiloh@nyu.edu  
 **Office:** Arts Center Room: C3-163  
-**Office Hours:** TBD  
+**"Office" Hours:** TBD  
+**"Office" Hours will be held in the lab!**
 **Availability outside of office hours:**   
 * Stop by my office or the Interactive Media lab anytime  
 * Send me email to set up an appointment   
