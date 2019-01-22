@@ -28,6 +28,8 @@ char packetBuffer[ PACKET_SIZE]; //buffer to hold incoming and outgoing packets
 WiFiUDP Udp;
 
 
+// Structure of neoPixle data from our point of view. Not necessarily the at
+// all the same as 
 struct neoPixelBrightness {
   byte r;
   byte g;
@@ -79,18 +81,14 @@ void setup()
 
 void loop()
 {
-  // set some colors here
-  neoPixelClientChooseColor(0, 255, 0, 0);
-  neoPixelClientChooseColor(1, 0, 255, 0);
-  neoPixelClientChooseColor(2, 0, 0, 255);
-  neoPixelClientChooseColor(3, 255, 0, 0);
-
-
+ strip.setPixelColor(3, c);
+ 
   Serial.println("preparing packet for server");
   //send a packet
   Udp.beginPacket(followerAddr, followerPort);
   Udp.write((char *)pixels, 36);
   Udp.endPacket();
+    strip.show();
   //Serial.print ("Checking incoming ...  ");
   // wait to see if a reply is available
 
@@ -107,17 +105,15 @@ void loop()
     Serial.println("... Nothing received");
   }
   delay(100);
+  doLightShow();
 }
-
-void neoPixelClientChooseColor(int pixel, byte r, byte g, byte b) {
-  pixels[pixel].r = r;
-
-  pixels[pixel].g = g;
-  pixels[pixel].b = b
-  ;
+void colorWipe(uint32_t c, uint8_t wait) {
+  for(uint16_t i=0; i<strip.numPixels(); i++) {
+    strip.setPixelColor(i, c);
+    strip.show();
+    delay(wait);
+  }
 }
-
-
 
 
 void printWiFiStatus() {
