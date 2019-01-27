@@ -30,8 +30,8 @@ Room Access Form [http://goo.gl/forms/Mge02MPoCb](http://goo.gl/forms/Mge02MPoCb
 **Office:** Arts Center Room: C3-163  
 **"Office" Hours:** TBD  
 **"Office" Hours will be held in the lab!**
+* If you wish to see me privately send me email
 **Availability outside of office hours:**   
-* Stop by my office or the Interactive Media lab anytime  
 * Send me email to set up an appointment   
 
 ### Description:

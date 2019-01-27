@@ -260,12 +260,10 @@ See further below.
 
 - Soldering and construction techniques
 
-...here
 
+#### Homework due Thursday February 21 11:50 AM - 2:30 PM
 
-#### Homework due Thursday February 15 
-
-**Design Project** 
+**Concept Design Project** 
 
 Design an IoT device. It can be practical or silly, a game, or
 anything else you fancy. You must tell a story as to why this device is
@@ -305,7 +303,7 @@ before plugging it in
 * Test using the basic example DigitalReadSerial. Don't forget to change the
 pin number to match your board.
 
-#### Thursday February 15 9am - 11:40 (tentative)
+#### Thursday February 21 11:50 AM - 2:30 PM
 
 - What have we learned?  
 	- Simple programming  
