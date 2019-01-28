@@ -2,7 +2,7 @@
 ## Interactive Media
 # Network Everything
 ### Course Number: IM-UH 2112
-### Spring 2018
+### Spring 2019
 
 **Everything can be found on the course website:**   
 [https://github.com/michaelshiloh/NetworkEverything](https://github.com/michaelshiloh/NetworkEverything/)
@@ -20,14 +20,4 @@ to current homework assignment
 Student Github repositories
 
 
-[Jiwon Kim](https://github.com/JiwonKim17/Network-Everything)  
-[Mateo](https://github.com/mjm973/NetworkEverything)  
-[Adham](https://github.com/AdhamChakohi/networkeverything)  
-[Ali](https://github.com/alialrahma/NetworkEverything)  
-[Abdullah](https://github.com/abdullahzameek/NetworkEverything)  
-[Joseph](https://github.com/JosephNartey/Joseph_NetworkEverything)  
-[Ming](https://github.com/mingwho/NetworkEverything)  
-[Ahram](https://github.com/aram432/Response_0124)  
-Heorhii [(Gosha)](https://github.com/HeorhiiS/Network-everything)  
-[Peter](https://github.com/seongun/Network-Everything)  
 
