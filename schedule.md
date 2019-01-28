@@ -41,6 +41,7 @@ This schedule is subject to change
 #### Tuesday 29 January 2018 11:50 - 1:05
 - What’s the class about
 - Introductions
+	- Background, interests
 - Syllabus review
 - Summary:
 	-  Be present and participate in class
@@ -50,6 +51,7 @@ This schedule is subject to change
 	and
 	debugging circuits and programs 
 	can be very time consuming.
+- Time permitting, introduction to Arduino
 
 #### Homework due Thursday 31 January 
 - **Read**
