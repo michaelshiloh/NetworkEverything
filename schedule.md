@@ -59,8 +59,9 @@ This schedule is subject to change
 		- pp 1-5
 		- pp 24-27
 		- browse 28-35
-	- If you are not familiar with Arduino, read Intro through Lesson 3 of Adafruit's [Arduino
-		tutorial](http://www.ladyada.net/learn/arduino/index.html) 
+	- If you are not familiar with Arduino, read Lesson #0, #1, and #2 of 
+	[Ladyada's Learn Arduino
+	tutorial](https://learn.adafruit.com/series/ladyadas-learn-arduino)
 - **Do**
 	- Download the Arduino IDE (ARDUINO 1.8.5) from
 		[here](https://www.arduino.cc/en/Main/Software)
