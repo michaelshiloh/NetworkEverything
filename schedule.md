@@ -48,10 +48,8 @@ This schedule is subject to change
 	-  No electronic distractions
 	-  Be proactive: Communicate with me regarding difficulties, problems, illness, etc.
 	-  Allow lots of time for homework as physical construction 
-	and
-	debugging circuits and programs 
-	can be very time consuming.
-- Time permitting, introduction to Arduino
+	and debugging circuits and programs can be very time consuming.
+- Introduction to Arduino
 
 #### Homework due Thursday 31 January 
 - **Read**
