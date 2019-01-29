@@ -49,7 +49,13 @@ This schedule is subject to change
 	-  Be proactive: Communicate with me regarding difficulties, problems, illness, etc.
 	-  Allow lots of time for homework as physical construction 
 	and debugging circuits and programs can be very time consuming.
-- Introduction to Arduino
+- Announcements
+	- Become a lab assistant! The application deadline is Feb 3rd at 11:59 pm.
+		It's on CareerNet, or contact Ume (uh242@nyu.edu)
+- Let's get started with Arduino
+	- Important Warnings:
+		- Antenna is delicate!
+		- Note that our Arduino is a 3.3V system!
 
 #### Homework due Thursday 31 January 
 - **Read**
