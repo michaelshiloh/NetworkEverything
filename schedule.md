@@ -69,7 +69,7 @@ This schedule is subject to change
 	[Ladyada's Learn Arduino
 	tutorial](https://learn.adafruit.com/series/ladyadas-learn-arduino)
 - **Do**
-	- Download the Arduino IDE (ARDUINO 1.8.5) from
+	- Download the Arduino IDE (ARDUINO 1.8.8) from
 		[here](https://www.arduino.cc/en/Main/Software)
 	- Try to install it if you can but don’t worry if you have trouble.   
 		We’ll do that in class.  
@@ -77,3 +77,22 @@ This schedule is subject to change
 	[Here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
 	are some instructions
 	- Write a reaction to the three chapters from Linked 
+
+#### Thursday 31 January 11:50 AM - 2:30 PM
+
+- Announcements
+	- Become a lab assistant! The application deadline is Feb 3rd at 11:59 pm.
+		It's on CareerNet, or contact Ume (uh242@nyu.edu)
+- Discuss readings
+- Let's dig into some of the technical details of the Arduino MKR 1010
+	- [Arduino MKR1010 Technical Specifications](https://store.arduino.cc/usa/arduino-mkr-wifi-1010)
+		- #Important! Circuit Operating Voltage	3.3V!#
+			- What does that mean
+	- [Arduino MKR101
+		Schematic](https://content.arduino.cc/assets/MKRWiFi1010V2.0_sch.pdf)
+	- [WiFiNINA library Reference](https://www.arduino.cc/en/Reference/WiFiNINA)
+		- look at server object
+	- Walk through example code
+	- IoT teaser using [Wia]( https://developers.wia.io/docs/arduino-mkr-wifi-1010)
+
+
