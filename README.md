@@ -19,11 +19,11 @@ to current homework assignment
 
 Student Github repositories
 
-[Junior](http://github.com/jgarcia1599/Network-Everything)
-[Maria](http://github.com/marialauramirabelli/Network-Everything)
-[Magda](http://github.com/trudla/NetworkEverything)
-[Manas](http://github.com/manaspant/Network_Everything)
-[Alex](http://github.com/AlemayehuMekonen/Network-everything)
-[Henok](http://github.com/HenokGuluma/NetworkEverything)
-[Noh](http://github.com/jhn281/NetworkEverything)
-[Ingie](http://github.com/ingiebaho/NetworkEverything)
+[Junior](http://github.com/jgarcia1599/Network-Everything)   
+[Maria](http://github.com/marialauramirabelli/Network-Everything)  
+[Magda](http://github.com/trudla/NetworkEverything)  
+[Manas](http://github.com/manaspant/Network_Everything)   
+[Alex](http://github.com/AlemayehuMekonen/Network-everything)  
+[Henok](http://github.com/HenokGuluma/NetworkEverything)  
+[Noh](http://github.com/jhn281/NetworkEverything)  
+[Ingie](http://github.com/ingiebaho/NetworkEverything)  
