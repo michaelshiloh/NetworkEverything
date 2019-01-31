@@ -19,5 +19,5 @@ to current homework assignment
 
 Student Github repositories
 
-here is how you get to [google](www.google.com)
+here is how you get to [google](http://www.google.com)
 
