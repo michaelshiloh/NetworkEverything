@@ -100,6 +100,8 @@ might find it amusing:
 [The Internet of Way Too Many
 Things](https://www.nytimes.com/2015/09/06/opinion/sunday/allison-arieff-the-internet-of-way-too-many-things.html)
 
+https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
+
 #### Homework due Tuesday 5 February 2019
 - **Read**
 	-	Making Things Talk 
