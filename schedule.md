@@ -110,7 +110,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 		- Page 17, "Node.js", through the bottom of Page 21
 		- Page 87, "A More Complex Network", up to "Making Requests with curl" on
 			Page 103
-		- Arduino [WiFi Web
+	- Arduino [WiFi Web
 		Server](https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer) example
 - **Do**
 	- If you are a Windows user, 
