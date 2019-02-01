@@ -61,9 +61,9 @@ This schedule is subject to change
 - **Read**
 	- Linked, Chapters 1-3
 	-	Making Things Talk 
-		- pp xi-xviii
-		- pp 1-5
-		- pp 24-27
+		- Page xi-xviii
+		- Page 1-5
+		- Page 24-27
 		- browse 28-35
 	- If you are not familiar with Arduino, read Lesson #0, #1, and #2 of 
 	[Ladyada's Learn Arduino
@@ -95,4 +95,26 @@ This schedule is subject to change
 	- Walk through example code
 	- IoT teaser using [Wia]( https://developers.wia.io/docs/arduino-mkr-wifi-1010)
 
+Here's the article that Manas mentioned in class. It's not required but you
+might find it amusing:
+[The Internet of Way Too Many
+Things](https://www.nytimes.com/2015/09/06/opinion/sunday/allison-arieff-the-internet-of-way-too-many-things.html)
 
+#### Homework due Tuesday 5 February 2019
+- **Read**
+	-	Making Things Talk 
+		- Page 12, bottom left, "Connecting to the Command Line on Your Computer",
+			Page to "Connecting to a Remote Web Host". 
+		- Page 17, "Node.js", through the bottom of Page 21
+		- Page 87, "A More Complex Network", up to "Making Requests with curl" on
+			Page 103
+		- Arduino [WiFi Web
+		Server](https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer) example
+- **Do**
+	- If you are a Windows user, 
+			I highly recommend Cygwin over the native DOS
+			CLI (Command Line Interface).
+	- Install node.js according to the instructions on page 17
+		and follow the steps to use it on pages 17 and 18
+	- Install p5.js according to the instructions on page 20
+	  and follow the steps to use it on pages 20 and 21
