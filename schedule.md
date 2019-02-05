@@ -120,3 +120,67 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 		and follow the steps to use it on pages 17 and 18
 	- Install p5.js according to the instructions on page 20
 	  and follow the steps to use it on pages 20 and 21
+
+#### Tuesday 5 February 2018 11:50 - 1:05
+
+**Announcement**
+- Do we have any new students?
+	- Any experience with Arduino or programming?
+	- Put away your cellphones and close your computers unless we are using them in class
+	- I expect anyone who has recently joined the class to catch up on all the
+		material and homework by Thursday
+- Regarding taking notes on your laptop
+	- I recognize that for some of you it's necessary and so I allow it
+	- However, you should strongly consider switching to pen and paper. 
+		Studies have shown that you retain information better when you write 
+		your notes by hand as compared to typing your notes.
+	- I am concerned, though, that the potential for distractions is great. I
+		expect you to only take notes, and not use the computer for anything else
+- We have a new working network!  
+	SSID: IMNetwork   
+  Password: static123   
+
+**Review**
+- SimpleWiFiWebServer (Arduino built-in example)
+
+**Demo and do with me**
+- WiFiWebServer (Arduino built-in example)
+- The two examples we just looked at are one-way. Can we both send and receive
+	information at once?
+- [Bidirectional Web Server](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/bidrectionalWebServer) example
+
+**Optional**
+- Use telnet to do the same things
+	- telnet 192.168.1.139 80
+	- GET / HTTP/1.1  (or GET /H or GET /L)
+	- enter a blank line
+- Use tcpdump to see the conversation
+	- tcpdump -i wlp4s0 -A host 192.168.1.139
+	- better with the WiFiWebServer example because there is more text to see
+- What does this tell us about security? 
+
+
+
+
+- The three examples we just looked at are all accessed by a web server i.e. a
+	human. What if we want devices to talk to each other?
+
+**Lecture** (time to close your laptop)
+- Introduction to User Datagram Protocol (UDP)
+- Like TCP (Transmission Control Protocol), UDP makes use of (relies upon) IP, the Internet Protocol.
+- Like TCP, UDP uses ports so that a given host can provide multipe services
+	(servers) on different ports
+- TCP is a more reliable and complicated protocol
+- UDP is connection-less. Once the message (datagram) is sent, the connection
+	is closed.
+- TCP provides error and flow control. UDP does not.
+- Because UDP is simpler and lacks error and flow control, it tends to be
+	faster and has lower latency and so is often suited to situations where
+	perceived lack of latency would be a problem, such as gaming or video
+	streaming. Also because it's simpler it's easier to implement on
+	microcontrollers.
+
+**Demo**
+[transmitter](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpSendByteOnButtonPress)
+and
+[receiver](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpRecvBytetoLED)
