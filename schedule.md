@@ -153,8 +153,8 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 #### Homework due Thursday 7 February
 
 **Read**
-- [Tutorial](https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer) for the WiFiWebServer Arduino built-in example. You can also find the code in your Arduino examples tab. Compare this to the example we did in class, SimpleWiFiWebServer and try to understand what is similar and what is different.
-- [Bidirectional Web Server](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/bidrectionalWebServer) example
+- Read the [Tutorial](https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer) for the WiFiWebServer Arduino built-in example. You can also find the code in your Arduino examples tab. Compare this to the example we did in class, SimpleWiFiWebServer and try to understand what is similar and what is different.
+- Read the code for my [Bidirectional Web Server](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/bidrectionalWebServer) example
 	- Be prepared to ask questions about how this works
 - Read [HTTP Basics](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html) up to "Conditional GET Requests", about half way down the page
 
