@@ -143,6 +143,23 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 **Review**
 - SimpleWiFiWebServer (Arduino built-in example)
 
+**Lecture**
+- The Internet
+- How IP addresses get assigned
+- Routers and Modems
+
+#### Homework due Thursday 7 February
+
+**Read**
+- [Tutorial](https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer) for the WiFiWebServer Arduino built-in example. You can also find the code in your Arduino examples tab. Compare this to the example we did in class, SimpleWiFiWebServer and try to understand what is similar and what is different.
+- [Bidirectional Web Server](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/bidrectionalWebServer) example
+	- Be prepared to ask questions about how this works
+- Read [HTTP Basics](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html) up to "Conditional GET Requests", about half way down the page
+
+#### Thursday 7 February 2018 11:50 - 1:05
+
+**Lecture**
+
 **Demo and do with me**
 - WiFiWebServer (Arduino built-in example)
 - The two examples we just looked at are one-way. Can we both send and receive
@@ -158,6 +175,8 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	- tcpdump -i wlp4s0 -A host 192.168.1.139
 	- better with the WiFiWebServer example because there is more text to see
 - What does this tell us about security? 
+- nmap can be used to find out what services are running (also known as what
+	ports are open)
 
 
 - The three examples we just looked at are all accessed by a web server i.e. a
@@ -183,3 +202,13 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 [transmitter](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpSendByteOnButtonPress)
 and
 [receiver](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpRecvBytetoLED)
+
+Which is the server and which is the client?
+
+Remember the maxim in "Making Things Talk": "Listen more than you talk". When
+you have devices talking to each other, it's important to figure out which
+will be talking more, and make sure the other one can listen enough
+
+**In Class Activity**
+Working in pairs, create an interactive experience using your two Arduino
+MKR1010
