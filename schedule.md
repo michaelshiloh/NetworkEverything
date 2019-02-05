@@ -151,7 +151,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 
 **Optional**
 - Use telnet to do the same things
-	- telnet 192.168.1.139 80
+	- telnet 192.168.1.139 80 (use the IP address of your MKR1010)
 	- GET / HTTP/1.1  (or GET /H or GET /L)
 	- enter a blank line
 - Use tcpdump to see the conversation
@@ -160,10 +160,9 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 - What does this tell us about security? 
 
 
-
-
 - The three examples we just looked at are all accessed by a web server i.e. a
-	human. What if we want devices to talk to each other?
+	human. What if we want devices to talk to each other? In order to do this we
+	need to learn a new protocol: User Datagram Protocol
 
 **Lecture** (time to close your laptop)
 - Introduction to User Datagram Protocol (UDP)
@@ -180,7 +179,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	streaming. Also because it's simpler it's easier to implement on
 	microcontrollers.
 
-**Demo**
+**Finally, a demonstration of two devices talking to each other using UDP**
 [transmitter](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpSendByteOnButtonPress)
 and
 [receiver](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpRecvBytetoLED)
