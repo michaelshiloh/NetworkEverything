@@ -164,7 +164,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	human. What if we want devices to talk to each other? In order to do this we
 	need to learn a new protocol: User Datagram Protocol
 
-**Lecture** (time to close your laptop)
+**Lecture** (This is where you close your laptop)
 - Introduction to User Datagram Protocol (UDP)
 - Like TCP (Transmission Control Protocol), UDP makes use of (relies upon) IP, the Internet Protocol.
 - Like TCP, UDP uses ports so that a given host can provide multipe services
@@ -179,7 +179,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	streaming. Also because it's simpler it's easier to implement on
 	microcontrollers.
 
-**Finally, a demonstration of two devices talking to each other using UDP**
+**Finally, a demonstration of two devices talking to each other using UDP**   
 [transmitter](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpSendByteOnButtonPress)
 and
 [receiver](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpRecvBytetoLED)
