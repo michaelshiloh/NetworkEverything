@@ -148,6 +148,8 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 - How IP addresses get assigned
 - Routers and Modems
 
+### current-homework-assignment
+
 #### Homework due Thursday 7 February
 
 **Read**
