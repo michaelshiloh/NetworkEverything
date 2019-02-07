@@ -229,9 +229,10 @@ Working in pairs, get this working.
 **In Class Activity**
 - Connect some LEDs and sensors and practice some intermediate interactions
 
+
 ### current-homework-assignment
 
-####Homework due Thursday 14 February 2019
+#### Homework due Thursday 14 February 2019
 
 **Important reminders**
 - Don't connect anything to 5V!
