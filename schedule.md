@@ -71,6 +71,7 @@ This schedule is subject to change
 - **Do**
 	- Download the Arduino IDE (ARDUINO 1.8.8) from
 		[here](https://www.arduino.cc/en/Main/Software)
+		Scroll down past the "Arduino Web Editor" to "Download the Arduino IDE". Select the appropriate download (if you are on Windows you probably want the Windows Installer). On the next page you will be asked if you want to contribute to Arduino Software. Scroll down a little and you will see a button that says "Just Download".
 	- Try to install it if you can but don’t worry if you have trouble.   
 		We’ll do that in class.  
 	- Create a GitHub account and create a repository for this class. 
@@ -205,12 +206,28 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 and
 [receiver](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/WiFiUdpRecvBytetoLED)
 
-Which is the server and which is the client?
-
 Remember the maxim in "Making Things Talk": "Listen more than you talk". When
 you have devices talking to each other, it's important to figure out which
-will be talking more, and make sure the other one can listen enough
+will be talking more, and make sure the other one can listen enough. 
+
+In this last pair of programs, which is the server and which is the client?
+Why?
 
 **In Class Activity**
-Working in pairs, create an interactive experience using your two Arduino
-MKR1010
+Working in pairs, get this working.
+
+**Lecture**
+- Introduction/review of basic generic microcontroller principles
+- Arduino in general
+- MKR1010 specifics
+	- [Technical
+		specifications](https://store.arduino.cc/usa/arduino-mkr-wifi-1010)
+	- Be very careful of the WiFi antenna!
+	- 3.3V system
+- Review of basic electronics, and what it means to use a 3.3V system
+
+**In Class Activity**
+- Connect some LEDs and sensors and practice some intermediate interactions
+
+**Homework**
+- Working in pairs, make an interesting pair of interactive devices
