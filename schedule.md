@@ -182,6 +182,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	ports are open)
 
 
+
 - The three examples we just looked at are all accessed by a web server i.e. a
 	human. What if we want devices to talk to each other? In order to do this we
 	need to learn a new protocol: User Datagram Protocol
@@ -222,6 +223,7 @@ Working in pairs, get this working.
 - MKR1010 specifics
 	- [Technical
 		specifications](https://store.arduino.cc/usa/arduino-mkr-wifi-1010)
+	- [Information](https://components101.com/microcontrollers/arduino-mkr1000-wi-fi-board) about the MKR1000 which is similiar and provides some more details 
 	- Be very careful of the WiFi antenna!
 	- 3.3V system
 - Review of basic electronics, and what it means to use a 3.3V system
@@ -229,5 +231,38 @@ Working in pairs, get this working.
 **In Class Activity**
 - Connect some LEDs and sensors and practice some intermediate interactions
 
-**Homework**
-- Working in pairs, make an interesting pair of interactive devices
+### current-homework-assignment
+
+####Homework due Thursday 14 February 2019
+
+**Important reminders**
+- Don't connect anything to 5V!
+- Don't connect anything to VIN!
+- Working in pairs, where one of you is the transmitter and one is the
+	receiver:
+	- On the board that is running WiFiUdpSendByteOnButtonPress (the transmitter) 
+		wire up three momentary switches to any inputs of your choosing.
+		- Test each of the switches with the built-in example "digitalReadSerial".
+		- Put different colored plastic caps on the switches to identify them
+	- On the board that is running WiFiUdpRecvBytetoLED wire up three LEDs.
+		- Test each of the LEDs with the built-in example "blink".
+		- Try to use the same three colors as the switches
+	- Modify WiFiUdpSendByteOnButtonPress to send 3 bytes instead of just one,
+		where each byte represents the value of one switch. For instance, the
+		first byte might be the red switch, the second the blue switch, and the
+		third byte the green switch. You will need three variables for the button
+		state and another three for the previous button state. Send the three
+		bytes when **any** of the switches are pressed.
+	- Modify WiFiUdpRecvBytetoLED to receive those 3 bytes. After reading the
+		packet, save each byte in a
+		variable with names "redSwitchState", "blueSwitchState", etc.
+		and then use each variable to control the corresponding LED.
+- I have put switches and LEDs in yellow bins on one of our shelves. We have
+		plenty more if you need, just let me know.
+- In the box with the switches I have put 10K ohm resistors (brown-black-orange-gold)
+- In the box with the LEDs
+	I have put 470 ohm resistors (yellow-purple-brown-gold) 
+- Review
+	[this](https://programmingelectronics.com/tutorial-17-using-a-button-old-version/) if you need to rememeber how to use an LED and a momentary switch
+- Review [this](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard) if you need to remember how to use a solderless breadboard
+
