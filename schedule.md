@@ -265,3 +265,16 @@ Working in pairs, get this working.
 	[this](https://programmingelectronics.com/tutorial-17-using-a-button-old-version/) if you need to rememeber how to use an LED and a momentary switch
 - Review [this](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard) if you need to remember how to use a solderless breadboard
 
+#### Thursday 12 February 2018 11:50 - 1:05
+
+**Lecture**
+- MKR1010 specifics
+	- [Technical
+		specifications](https://store.arduino.cc/usa/arduino-mkr-wifi-1010)
+	- [Information](https://components101.com/microcontrollers/arduino-mkr1000-wi-fi-board) about the MKR1000 which is similiar and provides some more details 
+	- Be very careful of the WiFi antenna!
+	- 3.3V system
+- Review of basic electronics, and what it means to use a 3.3V system
+
+- Doing multiple things at once
+	- Blink without delay
