@@ -265,7 +265,7 @@ Working in pairs, get this working.
 	[this](https://programmingelectronics.com/tutorial-17-using-a-button-old-version/) if you need to rememeber how to use an LED and a momentary switch
 - Review [this](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard) if you need to remember how to use a solderless breadboard
 
-#### Thursday 12 February 2018 11:50 - 1:05
+#### Tuesday 12 February 2018 11:50 - 1:05
 
 **Lecture**
 - MKR1010 specifics
@@ -278,3 +278,17 @@ Working in pairs, get this working.
 
 - Doing multiple things at once
 	- Blink without delay
+
+#### Thursday 14 February 2018 11:50 - 2:30
+
+**Show me your projects**
+
+**Lecture**
+- [My
+	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/basic) to the homework assignment 
+- What if we want to blink while doing this? Blink uses delay() which would
+	prevent us from seeing that someone is trying to communicate with us, so we
+	need to [blink without using
+	delay](https://www.arduino.cc/en/tutorial/BlinkWithoutDelay)
+- How would we incorporate this in our program?
+	- See [blinkingWithoutDelay](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/blinkingWithoutDelay)

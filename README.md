@@ -29,4 +29,4 @@ Student Github repositories
 [Ingie](http://github.com/ingiebaho/NetworkEverything)  
 [Sara](https://github.com/sarafakhry/Network-Everything)   
 [Mai](https://github.com/MaiLootah/networkEverything)   
-[Araz]()
+[Araz](https://github.com/ArazAslanian/networkEverything)
