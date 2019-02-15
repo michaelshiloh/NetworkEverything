@@ -303,9 +303,8 @@ Working in pairs, get this working.
 	this a transceiver.
 
 	With your partner, write a transceiver that will work both ways. 
-	The one difference between your programs is that
-	you will each need the the IP address (and possibly the port)
-	of your partner's device
+	The only difference between your programs will be
+	the IP address (and possibly the port) of your partner's device
 
 	You might start by looking at your individual programs
 	and then think about what elements are common. Then add the ability to
@@ -319,8 +318,10 @@ Working in pairs, get this working.
 
 	1. Use functions to organize your code into subtasks. Don't write everything
 		 in the Arduino ```loop()``` function.
-	2. Use the keyword ```const``` for variables that will not change
-	3. Choose descriptive names for all your variables and functions
+	1. Use the keyword ```const``` for variables that will not change
+	1. Choose descriptive names for all your variables and functions
+	1. Practice defensive programming. Think about what assumptions your
+		 code makes, and check these assumptions before proceeding.
 	
 	As before, use three momenary switches and three LEDs, except that now both
 	of your circuits will also be identical and will include both switches
