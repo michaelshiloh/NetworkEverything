@@ -312,6 +312,8 @@ Working in pairs, get this working.
 	listen to the other device (and activate your LEDs), 
 	and the ability to send your key presses to the other device. You've done
 	this already in separate code, now you just need to combine them.
+
+	Hint: You might find it helpful to think of these as isolated tasks. 
 	
 	As before, use three momenary switches and three LEDs, except that now both
 	of your circuits will also be identical and will include both switches
