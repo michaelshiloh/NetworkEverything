@@ -229,9 +229,6 @@ Working in pairs, get this working.
 **In Class Activity**
 - Connect some LEDs and sensors and practice some intermediate interactions
 
-
-### current-homework-assignment
-
 #### Homework due Thursday 14 February 2019
 
 **Important reminders**
@@ -292,3 +289,34 @@ Working in pairs, get this working.
 	delay](https://www.arduino.cc/en/tutorial/BlinkWithoutDelay)
 - How would we incorporate this in our program?
 	- See [blinkingWithoutDelay](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/blinkingWithoutDelay)
+
+### current-homework-assignment
+
+#### Homework due Tuesday 19 February 2019
+
+**Part 1: Do**
+
+- In your last homework, and in [my
+	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/basic), we used separate
+	code for the transmitter and the receiver. In fact, it is possible to
+	combine the code, so that each device can both transmit and receive. We call
+	this a transceiver.
+
+	With your partner, write a transceiver that will work both ways. 
+	The one difference between your programs is that
+	you will each need the the IP address (and possibly the port)
+	of your partner's device
+
+	You might start by looking at your individual programs
+	and then think about what elements are common. Then add the ability to
+	listen to the other device (and activate your LEDs), 
+	and the ability to send your key presses to the other device. You've done
+	this already in separate code, now you just need to combine them.
+	
+	As before, use three momenary switches and three LEDs, except that now both
+	of your circuits will also be identical and will include both switches
+	and LEDs.
+
+**Part 2: Read**
+
+To be added
