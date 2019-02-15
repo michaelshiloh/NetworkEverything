@@ -314,10 +314,20 @@ Working in pairs, get this working.
 	this already in separate code, now you just need to combine them.
 
 	Hint: You might find it helpful to think of these as isolated tasks. 
+
+	For this assignment I want you to incorporate good programming habits:
+
+	1. Use functions to organize your code into subtasks. Don't write everything
+		 in the Arduino ```loop()``` function.
+	2. Use the keyword ```const``` for variables that will not change
+	3. Choose descriptive names for all your variables and functions
 	
 	As before, use three momenary switches and three LEDs, except that now both
 	of your circuits will also be identical and will include both switches
 	and LEDs.
+
+	You do not need to make your LEDs blink: simply pressing a button
+	should make the corresponding LED light up on your partner's board.
 
 **Part 2: Read**
 
