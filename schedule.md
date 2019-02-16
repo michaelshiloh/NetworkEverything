@@ -332,4 +332,28 @@ Working in pairs, get this working.
 
 **Part 2: Read**
 
-To be added
+- **Designing Connected Products** 
+	- Read pages vii through 28. This includes the
+		Table of Contents, the Forward, the Preface, and Chapter 1. 
+	- Write a short response (two paragraphs) to the reading
+	- Write a short (two paragraphs) description of a hypthetical 
+		device you imagine (you won't have to build this so it
+		doesn't have to be something you know how to make). Address two of the
+		design concepts in the book on pages 21-26
+- **Making Things Talk**
+	- Read "Programming and Troubleshooting Tools for Embedded Modules" on pages
+		164 - 170
+	- Watch [Clay Shirky’s 4 part video 
+	series](https://vimeo.com/channels/debugging) 
+	on debugging (less than 20 minutes total)
+
+#### Tuesday 19 February 2018 11:50 - 1:05
+
+- Debugging techniques
+- What kind of things can go wrong
+	- Accessing beyond the bounds of an array
+	- = vs ==
+		- Defensive programming way to avoid this
+	- Off by one errors
+
+		```while (i <= 10)```
