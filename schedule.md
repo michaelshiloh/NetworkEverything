@@ -366,7 +366,7 @@ Working in pairs, get this working.
 
 - Study [my
 	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) 
-	to the homework assignment and bring any questions to class on Tusday
+	to the homework assignment and bring any questions to class on Thursday
 
 #### Thursday 21 February 2018 11:50 - 2:30 (tentative)
 
