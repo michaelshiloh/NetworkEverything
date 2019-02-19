@@ -290,8 +290,6 @@ Working in pairs, get this working.
 - How would we incorporate this in our program?
 	- See [blinkingWithoutDelay](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/blinkingWithoutDelay)
 
-### current-homework-assignment
-
 #### Homework due Tuesday 19 February 2019
 
 **Part 1: Do**
@@ -348,6 +346,29 @@ Working in pairs, get this working.
 	on debugging (less than 20 minutes total)
 
 #### Tuesday 19 February 2018 11:50 - 1:05
+
+- Review [my
+	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) to the homework assignment
+
+### current-homework-assignment
+
+#### Homework due Thursday 21 February 2019
+
+- Clean up your solution to the homework assignment using good programming
+	techniques. You don't need to be as excessive as I was in my solution. After
+	you make these changes, make sure your program still works.
+
+- Create a new folder in your Github repository and 
+	upload your solution to the homework assignment.
+	Name the new folder 
+	something like "UDP transceiver" (Github will replace the space with a
+	character, probably an underscore ('_')).
+
+- Study [my
+	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) 
+	to the homework assignment and bring any questions to class on Tusday
+
+#### Thursday 21 February 2018 11:50 - 2:30 (tentative)
 
 - Debugging techniques
 - What kind of things can go wrong
