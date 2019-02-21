@@ -370,6 +370,11 @@ Working in pairs, get this working.
 
 #### Thursday 21 February 2018 11:50 - 2:30 (tentative)
 
+**Homework**
+- Did you all upload your files to github?
+- Discuss reading in "Designing Connected Products"
+
+**Discussion**
 - Debugging techniques
 - What kind of things can go wrong
 	- Accessing beyond the bounds of an array
@@ -378,3 +383,36 @@ Working in pairs, get this working.
 	- Off by one errors
 
 		```while (i <= 10)```
+
+**Demo**
+- ssh into linux computer
+	- from anywhere
+		- ssh 1.tcp.ngrok.io -p 23885 -l michael
+	- from IMNetwork
+		- ssh 192.168.1.22 -p 23885 -l michael
+- Command line commands
+	- passwd
+	- ls
+	- cd
+	- pwd
+	- nano <filename>
+	- sudo adduser <username>
+	- cat
+	- cp
+	- rm
+	- mv
+	- man <command>
+	- tab completion
+	- ^C
+	- ^D
+	- ifconfig
+
+**node.js**
+- Explain udpReceiver.js
+	- ipv4 vs ipv6
+	- Callback functions
+	- Why printing binary looks weird
+	- man ascii
+- Explain udpEchoServer.js
+	
+
