@@ -389,7 +389,7 @@ Working in pairs, get this working.
 	- from anywhere
 		- ssh 1.tcp.ngrok.io -p 23885 -l michael
 	- from IMNetwork
-		- ssh 192.168.1.22 -p 23885 -l michael
+		- ssh 192.168.1.22 -l michael
 - Command line commands
 	- passwd
 	- ls
