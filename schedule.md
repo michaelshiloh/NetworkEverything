@@ -350,8 +350,6 @@ Working in pairs, get this working.
 - Review [my
 	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) to the homework assignment
 
-### current-homework-assignment
-
 #### Homework due Thursday 21 February 2019
 
 - Clean up your solution to the homework assignment using good programming
@@ -368,7 +366,7 @@ Working in pairs, get this working.
 	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) 
 	to the homework assignment and bring any questions to class on Thursday
 
-#### Thursday 21 February 2018 11:50 - 2:30 (tentative)
+#### Thursday 21 February 2018 11:50 - 2:30 
 
 **Homework**
 - Did you all upload your files to github?
@@ -415,4 +413,24 @@ Working in pairs, get this working.
 	- man ascii
 - Explain udpEchoServer.js
 	
+### current-homework-assignment
 
+#### Homework due Tuesday 26 February 2019
+
+- Read all of Chapter 3 in "Making Things Talk". You've already 
+	read the section "Programming and Troubleshooting Tools 
+	for Embedded Modules" but it would be a good idea to skim it again.
+
+- Watch this [Lynda tutorial on
+	Node.js](https://www.lynda.com/Node-js-tutorials/Demo-application-overview/612195/677538-4.html)
+	- Introduction to Node
+	- Understanding npm
+	- Reading and Writing Files
+	- Exploring Web Frameworks
+	- You can use your account on our linux computer to practice. 
+	  Remember that to log in to our computer type 
+		```ssh 1.tcp.ngrok.io -p 23885 -l <your user name>```
+		Node.js is already installed.
+
+
+#### Tuesday 26 February 2018 11:50 - 1:05 (tentative)
