@@ -417,20 +417,22 @@ Working in pairs, get this working.
 
 #### Homework due Tuesday 26 February 2019
 
-- Read all of Chapter 3 in "Making Things Talk". You've already 
-	read the section "Programming and Troubleshooting Tools 
-	for Embedded Modules" but it would be a good idea to skim it again.
+- Read [Basic Linux Commands for
+	Beginners](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
 
-- Watch this [Lynda tutorial on
-	Node.js](https://www.lynda.com/Node-js-tutorials/Demo-application-overview/612195/677538-4.html)
+- Watch [Learning Node.js](https://www.lynda.com/Node-js-tutorials/Demo-application-overview/612195/677538-4.html) Lynda tutorial
 	- Introduction to Node
 	- Understanding npm
 	- Reading and Writing Files
 	- Exploring Web Frameworks
-	- You can use your account on our linux computer to practice. 
+	You can use your account on our linux computer to practice. 
 	  Remember that to log in to our computer type 
 		```ssh 1.tcp.ngrok.io -p 23885 -l <your user name>```
 		Node.js is already installed.
+
+- Read all of Chapter 3 in "Making Things Talk". You've already 
+	read the section "Programming and Troubleshooting Tools 
+	for Embedded Modules" but it would be a good idea to skim it again.
 
 
 #### Tuesday 26 February 2018 11:50 - 1:05 (tentative)
