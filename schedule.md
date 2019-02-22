@@ -431,7 +431,8 @@ Working in pairs, get this working.
 		```ssh 1.tcp.ngrok.io -p 23885 -l <your user name>```
 		Node.js is already installed.
 
-- Read all of Chapter 3 in "Making Things Talk". You've already 
+- Read all of Chapter 4, "Look, Ma, No Computer!"
+	in "Making Things Talk". You've already 
 	read the section "Programming and Troubleshooting Tools 
 	for Embedded Modules" but it would be a good idea to skim it again.
 
