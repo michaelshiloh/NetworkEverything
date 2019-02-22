@@ -422,10 +422,11 @@ Working in pairs, get this working.
 
 - Watch [Learning Node.js](https://www.lynda.com/Node-js-tutorials/Demo-application-overview/612195/677538-4.html) Lynda tutorial
 	- Introduction to Node
-	- Understanding npm
+	- Understanding npm (don't worry about creating your own modules)
 	- Reading and Writing Files
 	- Exploring Web Frameworks
 	You can use your account on our linux computer to practice. 
+
 	  Remember that to log in to our computer type 
 		```ssh 1.tcp.ngrok.io -p 23885 -l <your user name>```
 		Node.js is already installed.
