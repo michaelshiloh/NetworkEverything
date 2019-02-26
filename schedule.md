@@ -412,7 +412,6 @@ Working in pairs, get this working.
 	- man ascii
 - Explain udpEchoServer.js
 	
-### current-homework-assignment
 
 #### Homework due Tuesday 26 February 2019
 
@@ -435,7 +434,58 @@ Working in pairs, get this working.
 	read the section "Programming and Troubleshooting Tools 
 	for Embedded Modules" but it would be a good idea to skim it again.
 
-#### Tuesday 26 February 2018 11:50 - 1:05 (tentative)
+#### Tuesday 26 February 2018 11:50 - 1:05 
 
 - Discuss reading in "Designing Connected Products"
 - Discuss your concepts
+
+### current-homework-assignment
+
+#### Homework due Thursday 28 February 2019
+
+- In [The definitive Node.js
+	handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e) read
+	- [Introduction to Node.js](https://medium.com/p/6912378afc6e#0a66)
+	- [How HTTP requests work](https://medium.com/p/6912378afc6e#bdce)
+	- [The HTTP protocol](https://medium.com/p/6912378afc6e#c095)
+	- [Build an HTTP Server](https://medium.com/p/6912378afc6e#adef)
+	- [Making HTTP requests with Node](https://medium.com/p/6912378afc6e#880e)
+
+- Design a more realistic "connected device". By realistic I mean that you
+	should work within our limitations, such as:
+	- The connected device will be your Arduino MKR1010. It can interface to
+		simple sensors (light, sound, distance measuring, touch, humidity,
+		temperature, force, bending, etc.) or actuators (LEDs, motors, speakers)
+		- Anything involving a camera requires computer vision and is very hard.
+			Also there is no way to connect a camera to the MKR1010
+		- We have sensors that can measure the distance to whatever is closest to
+			them, but they can't tell where that object is
+		- Sounds sensors can tell you how load a sound is, but can't understand
+			speach. 
+	- Our server will be a node.js script running on our Linux computer. We have
+		not studied node.js extensively, so your programs will be relatively
+		simple 
+		- Although you can make your program as complex as you can handle if you
+			wish.
+		- We can display simple web pages, we will learn how to display
+			buttons and how to tell when a button has been clicked.
+		- We will learn how to manipulate simple properties of a web page, 
+			e.g. changing its color
+	- Your device does not need to have a useful function. You do not need to
+		answer "Why would people buy this".
+	- Sketch out a block diagram of the hardware and software systems
+		- Your hardware block diagram should show any sensors and actuators, 
+			although you don't need to draw a schematic (you will do this later, 
+			so you can think about it)
+		- Your software block diagram should include the Arduino program that 
+			runs on your MKR1010 as well as the node.js program that runs on 
+			the Linux computer
+	- It's OK if you don't quite know how to accomplish all of this yet, as some
+		of these things have not been taught yet. Do the best you can so that
+		you get an idea of what you don't yet know.
+		
+#### Thursday 28 February 2018 11:50 - 2:30 (tentative)
+
+- Sensors and actuators (Arduino)
+- Buttons (Node.js)
+- Case study: a web controlled robot
