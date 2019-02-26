@@ -370,7 +370,6 @@ Working in pairs, get this working.
 
 **Homework**
 - Did you all upload your files to github?
-- Discuss reading in "Designing Connected Products"
 
 **Discussion**
 - Debugging techniques
@@ -436,5 +435,7 @@ Working in pairs, get this working.
 	read the section "Programming and Troubleshooting Tools 
 	for Embedded Modules" but it would be a good idea to skim it again.
 
-
 #### Tuesday 26 February 2018 11:50 - 1:05 (tentative)
+
+- Discuss reading in "Designing Connected Products"
+- Discuss your concepts
