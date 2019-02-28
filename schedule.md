@@ -488,7 +488,60 @@ Working in pairs, get this working.
 
 Announcement:
 - Label your kit and shelf very clearly! 
+
+Visit
 - Sensors and actuators (Arduino)
-- Buttons (Node.js)
-- Simple connected device
-- Case study: a web controlled robot
+
+Example: Trivial Connected device
+
+server.js:
+
+```
+const http = require('http')
+const fs = require('fs');
+const express = require('express'); // web server application
+const app = express();        // instantiate express server
+const server = http.Server(app);  // connects http library to server
+const hostname = "127.0.0.1";
+
+
+const PORT=8080;
+
+app.use(express.static('public'));  // find pages in public directory
+
+server.listen(PORT, () => {
+  console.log(`Server running at http://${hostname}:${PORT}/`);
+})
+```
+
+public/index.html:
+
+```
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Trivial Connected Device Control Panel</title>
+        <script src="client.js"></script>
+    </head>
+    <body>
+        <button onclick="ledON()">LED ON</button>
+
+        <button onclick="ledOFF()">LED OFF</button>
+    </body>
+</html>
+```
+
+public/client.js:
+
+```
+function ledON() {
+    console.log ("sending a message to turn on the LED");
+}
+
+function ledOFF() {
+    console.log ("sending a message to turn off the LED");
+}
+```
+
+
