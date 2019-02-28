@@ -548,10 +548,13 @@ function ledOFF() {
 
 #### Homework due Tuesday 5 March 2019
 
-- Read [these chapters on Node](media/NodeJSNotesForProfessionals.pdf) from [Eloquent
-	Javascript](https://eloquentjavascript.net/)
+- Read [Chapter 20: Node.js](http://eloquentjavascript.net/20_node.html)
+	and - [Chapter 21: Project: Skill-Sharing Website](http://eloquentjavascript.net/21_skillsharing.html)
+	from [Eloquent
+	Javascript](https://eloquentjavascript.net/). You might want to browse other
+	chapters as well (Optional).
 - Another resource is these [Node.js notes for
-	Professionals](media/NodeJSNotesForProfessionals.pdf)
+	Professionals](media/NodeJSNotesForProfessionals.pdf) (Optional)
 - Modify (or completely replace) your proposed connected device to 
 	fit within our means. 
 	- Limit yourselves to the sensors and actuators that are available in the lab.
