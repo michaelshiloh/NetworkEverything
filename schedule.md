@@ -554,7 +554,7 @@ function ledOFF() {
 	Javascript](https://eloquentjavascript.net/). You might want to browse other
 	chapters as well (Optional).
 - Another resource is these [Node.js notes for
-	Professionals](media/NodeJSNotesForProfessionals.pdf) (Optional)
+	Professionals](https://books.goalkicker.com/NodeJSBook/) (Optional)
 - Modify (or completely replace) your proposed connected device to 
 	fit within our means. 
 	- Limit yourselves to the sensors and actuators that are available in the lab.
