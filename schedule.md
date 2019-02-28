@@ -439,7 +439,6 @@ Working in pairs, get this working.
 - Discuss reading in "Designing Connected Products"
 - Discuss your concepts
 
-### current-homework-assignment
 
 #### Homework due Thursday 28 February 2019
 
@@ -545,3 +544,38 @@ function ledOFF() {
 ```
 
 
+### current-homework-assignment
+
+#### Homework due Tuesday 5 March 2019
+
+- Read [these chapters on Node](media/NodeJSNotesForProfessionals.pdf) from [Eloquent
+	Javascript](https://eloquentjavascript.net/)
+- Another resource is these [Node.js notes for
+	Professionals](media/NodeJSNotesForProfessionals.pdf)
+- Modify (or completely replace) your proposed connected device to 
+	fit within our means. 
+	- Limit yourselves to the sensors and actuators that are available in the lab.
+	- Limit yourselves to a relatively simple web page, unless you know HTML and
+		CSS and want to make it more elaborate. 
+		
+		Consider the very simple web server control panel for a connected device 
+		that we worked on today.
+		
+		We will learn how to make 
+		somewhat more elaborate web pages and control
+		panels, but not much more elaborate. (You will be able to select options, 
+		and enter information such as times or words.) 
+
+- Using the example that we did in class, create the directory structure and
+	the necessary files in your Github repository, in a new directory (folder)
+	called "simpleConnectedDeviceAssignment". Create the three files we looked
+	at (server.js, client.js, index.html). Fill them out as best you can, and
+	write "psuedocode" or comments for the parts that you don't know how to do
+	yet. I do not expect this program to work yet.
+
+	Write an Arduino sketch (also in "simpleConnectedDeviceAssignment") that
+	will implement the Arduino side of your project. Model it after the UDP
+	programs that we wrote. This program should handle any sensors and actuators
+	on your Arduino, but does not need to work on the network yet. 
+	Again, use "psuedocode" or comments 
+	for the parts that you don't know how to do yet.
