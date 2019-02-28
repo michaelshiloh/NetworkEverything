@@ -38,7 +38,7 @@ May 16 End of semester show?
 
 This schedule is subject to change
 
-#### Tuesday 29 January 2018 11:50 - 1:05
+#### Tuesday 29 January 2019 11:50 - 1:05
 - What’s the class about
 - Introductions
 	- Background, interests
@@ -122,7 +122,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 	- Install p5.js according to the instructions on page 20
 	  and follow the steps to use it on pages 20 and 21
 
-#### Tuesday 5 February 2018 11:50 - 1:05
+#### Tuesday 5 February 2019 11:50 - 1:05
 
 **Announcement**
 - Do we have any new students?
@@ -157,7 +157,7 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiWebServer
 - Read the code for my [Bidirectional Web Server](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/bidrectionalWebServer) example
 	- Be prepared to ask questions about how this works
 
-#### Thursday 7 February 2018 11:50 - 1:05
+#### Thursday 7 February 2019 11:50 - 1:05
 
 **Lecture**
 
@@ -262,7 +262,7 @@ Working in pairs, get this working.
 	[this](https://programmingelectronics.com/tutorial-17-using-a-button-old-version/) if you need to rememeber how to use an LED and a momentary switch
 - Review [this](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard) if you need to remember how to use a solderless breadboard
 
-#### Tuesday 12 February 2018 11:50 - 1:05
+#### Tuesday 12 February 2019 11:50 - 1:05
 
 **Lecture**
 - MKR1010 specifics
@@ -276,7 +276,7 @@ Working in pairs, get this working.
 - Doing multiple things at once
 	- Blink without delay
 
-#### Thursday 14 February 2018 11:50 - 2:30
+#### Thursday 14 February 2019 11:50 - 2:30
 
 **Show me your projects**
 
@@ -345,7 +345,7 @@ Working in pairs, get this working.
 	series](https://vimeo.com/channels/debugging) 
 	on debugging (less than 20 minutes total)
 
-#### Tuesday 19 February 2018 11:50 - 1:05
+#### Tuesday 19 February 2019 11:50 - 1:05
 
 - Review [my
 	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) to the homework assignment
@@ -366,7 +366,7 @@ Working in pairs, get this working.
 	solution](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/arduinoSketches/threeButtonsToThreeLEDSUDP/bidirectional/transceiver) 
 	to the homework assignment and bring any questions to class on Thursday
 
-#### Thursday 21 February 2018 11:50 - 2:30 
+#### Thursday 21 February 2019 11:50 - 2:30 
 
 **Homework**
 - Did you all upload your files to github?
@@ -434,7 +434,7 @@ Working in pairs, get this working.
 	read the section "Programming and Troubleshooting Tools 
 	for Embedded Modules" but it would be a good idea to skim it again.
 
-#### Tuesday 26 February 2018 11:50 - 1:05 
+#### Tuesday 26 February 2019 11:50 - 1:05 
 
 - Discuss reading in "Designing Connected Products"
 - Discuss your concepts
@@ -483,7 +483,7 @@ Working in pairs, get this working.
 		of these things have not been taught yet. Do the best you can so that
 		you get an idea of what you don't yet know.
 		
-#### Thursday 28 February 2018 11:50 - 2:30 (tentative)
+#### Thursday 28 February 2019 11:50 - 2:30 (tentative)
 
 Announcement:
 - Label your kit and shelf very clearly! 
@@ -582,3 +582,8 @@ function ledOFF() {
 	on your Arduino, but does not need to work on the network yet. 
 	Again, use "psuedocode" or comments 
 	for the parts that you don't know how to do yet.
+
+#### Tuesday 5 March 2019 11:50 - 1:05  (tentative)
+
+- using command line git to pull your code
+- how to communicate from the server to your Arduino
