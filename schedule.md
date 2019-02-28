@@ -486,6 +486,9 @@ Working in pairs, get this working.
 		
 #### Thursday 28 February 2018 11:50 - 2:30 (tentative)
 
+Announcement:
+- Label your kit and shelf very clearly! 
 - Sensors and actuators (Arduino)
 - Buttons (Node.js)
+- Simple connected device
 - Case study: a web controlled robot
