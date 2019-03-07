@@ -483,7 +483,7 @@ Working in pairs, get this working.
 		of these things have not been taught yet. Do the best you can so that
 		you get an idea of what you don't yet know.
 		
-#### Thursday 28 February 2019 11:50 - 2:30 (tentative)
+#### Thursday 28 February 2019 11:50 - 2:30 
 
 Announcement:
 - Label your kit and shelf very clearly! 
@@ -583,7 +583,15 @@ function ledOFF() {
 	Again, use "psuedocode" or comments 
 	for the parts that you don't know how to do yet.
 
-#### Tuesday 5 March 2019 11:50 - 1:05  (tentative)
+#### Tuesday 5 March 2019 11:50 - 1:05 
 
 - using command line git to pull your code
-- how to communicate from the server to your Arduino
+
+#### Thursday 7 March 2019 11:50 - 2:30 
+
+Study example to 
+- Allow client (browser) to send message back to server
+- Arduino connects to server and sends data to server but it's not handled yet
+
+in my repository resourcesForClasses
+file: src/nodePrograms/udpAndHttpServer
