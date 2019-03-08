@@ -543,9 +543,6 @@ function ledOFF() {
 }
 ```
 
-
-### current-homework-assignment
-
 #### Homework due Tuesday 5 March 2019
 
 - Read [Chapter 20: Node.js](http://eloquentjavascript.net/20_node.html)
@@ -595,3 +592,42 @@ Study example to
 
 in my repository resourcesForClasses
 file: src/nodePrograms/udpAndHttpServer
+
+### current-homework-assignment
+
+#### Homework due Tuesday 12 March 2019
+
+Start implementing your connected device
+- Create a system diagram, similar to the one on page 192 in "Making Things
+	Talk". This can be hand drawn.
+- Create a schematic. This can be hand drawn.
+- Create a flow chart of the logic. You have at least four programs to
+	consider: the web server (server.js), the web page (index.html), 
+	the node code running in the browser (client.js), and the Arduino program.
+- Create a new directory (folder) in your connected device directory called
+	"src", and in there create server.js and arduino.ino. 
+	Create a directory in src called
+	"public", and in there put index.html and client.js. This is simlar to the
+	structure I have in resourcesForClasses/src/nodePrograms/udpAndHttpServer;
+- Start writing your program. Start with the simplest things, and test each
+	stage. For example
+	1. Get a webserver running. This is server.js and index.html. Go back to the
+		 simple server.js that we did at the begining of the semester. Test using
+		 your browser.
+	1. Add any controls you need. So far we just know how to do buttons. Next
+		 week you will learn how to input numbers (e.g. times) etc. Test that the
+		 buttons work by using console.log
+	1. Add a client.js program that gets a message when the buttons are pressed.
+		 Test.
+	1. Add a method to send the button events from client.js back to the server.
+		 Test.
+	1. Build your Arduino circuit. Don't build your device yet. Use the
+		 solderless breadboard, use pushbuttons and potentiometers instead of
+		 specific sensors, and use LEDs instead of other actuators.
+	1. Write an Arduino program to work with your sensors and actuators. 
+	1. Test the Arduino setup.
+- Make clear comments for any part you don't know how to do. This will remind
+	you what you need to figure out next and will help me focus on teaching you
+	what you need in order to finish this project.
+- Put this all in your Github repository. Remember to push your code often so
+	that nothing gets lost.
