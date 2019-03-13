@@ -593,8 +593,6 @@ Study example to
 in my repository resourcesForClasses
 file: src/nodePrograms/udpAndHttpServer
 
-### current-homework-assignment
-
 #### Homework due Tuesday 12 March 2019
 
 Start implementing your connected device
@@ -631,3 +629,32 @@ Start implementing your connected device
 	what you need in order to finish this project.
 - Put this all in your Github repository. Remember to push your code often so
 	that nothing gets lost.
+
+#### Tuesday 12 March 2019 11:50 - 1:05 
+
+**Show your work**
+- System Diagram
+- Schematic
+- Program
+
+**Announcement**
+I'll be out of town April 11 and April 13. We need to make up the day some
+other time. Options include extending some of our regular meetings, or meeting
+another day. What works?
+
+**What do you need in order to finish your project?**
+- Most likely, review udpAndHttpServer
+
+### current-homework-assignment
+
+#### Homework due Thursday 14 March
+
+- As we discussed in class, we will have a 5 hour class on March 16 to make up
+	for April 11 and April 13.
+
+- Continue to make progress on your projects
+
+#### Thursday 31 January 11:50 AM - 2:30 PM (tentative)
+
+- Add a slider to a webpage so you can input values
+
