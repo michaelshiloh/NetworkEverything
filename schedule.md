@@ -658,3 +658,4 @@ another day. What works?
 
 - Add a slider to a webpage so you can input values
 
+- Work on your projects, with small lectures as needed
