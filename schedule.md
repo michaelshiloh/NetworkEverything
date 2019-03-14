@@ -656,6 +656,9 @@ another day. What works?
 
 #### Thursday 31 January 11:50 AM - 2:30 PM (tentative)
 
-- Add a slider to a webpage so you can input values
+- Finish review of tcpAndHttpServer
+
+- Look at
+	[slider](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/nodePrograms/slider): Add a slider to a webpage so you can input values and send them to the server
 
 - Work on your projects, with small lectures as needed
