@@ -656,7 +656,8 @@ another day. What works?
 
 #### Thursday 31 January 11:50 AM - 2:30 PM (tentative)
 
-- Finish review of tcpAndHttpServer
+- Finish review of
+	[udpAndHttpServer](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/nodePrograms/udpAndHttpServer)
 
 - Look at
 	[slider](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/nodePrograms/slider): Add a slider to a webpage so you can input values and send them to the server
