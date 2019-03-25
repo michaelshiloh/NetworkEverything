@@ -2,7 +2,7 @@
 ## Interactive Media
 # Network Everything
 ### Course Number: IM-UH 2112
-### Spring 2018
+### Spring 2019
 
 **Everything can be found on the course website:**   
 [https://github.com/michaelshiloh/NetworkEverything](https://github.com/michaelshiloh/NetworkEverything/)
