@@ -676,5 +676,6 @@ Welcome back! I hope you had a great spring break.
 3. Next meeting is Tuesday April 9
 
 Homework (tentative)
+
 1 finish your project
 2 create your Raspberry Pi bootable uSD card
