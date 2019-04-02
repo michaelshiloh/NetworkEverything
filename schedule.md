@@ -663,3 +663,11 @@ another day. What works?
 	[slider](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/nodePrograms/slider): Add a slider to a webpage so you can input values and send them to the server
 
 - Work on your projects, with small lectures as needed
+
+#### Tuesday 2 April 2019 11:50 - 1:05 
+
+Welcome back! I hope you had a great spring break.
+
+1. Project status 
+2. Introduction to Raspberry Pi
+3. Next meeting is Tuesday April 9
