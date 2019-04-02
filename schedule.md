@@ -670,4 +670,11 @@ Welcome back! I hope you had a great spring break.
 
 1. Project status 
 2. Introduction to Raspberry Pi
+1.1. Desktop
+1.2. uSD card
+1.3 Console
 3. Next meeting is Tuesday April 9
+
+Homework (tentative)
+1 finish your project
+2 create your Raspberry Pi bootable uSD card
