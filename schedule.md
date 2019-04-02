@@ -654,7 +654,7 @@ another day. What works?
 
 - Continue to make progress on your projects
 
-#### Thursday 31 January 11:50 AM - 2:30 PM (tentative)
+#### Thursday 31 January 11:50 AM - 2:30 PM
 
 - Finish review of
 	[udpAndHttpServer](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/nodePrograms/udpAndHttpServer)
