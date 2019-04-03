@@ -678,11 +678,11 @@ Welcome back! I hope you had a great spring break.
 
 #### Homework due Tuesday 9 April 2019
 
-1. Work on your project (due Thursday April 11)
+**Work on your project (due Thursday April 11)**
 
-2. Prepare your Raspberry Pi (due Tuesday April 9)  
+**Prepare your Raspberry Pi (due Tuesday April 9)**
 
-2.1. create your Raspberry Pi bootable uSD card. Download and follow the
+1. create your Raspberry Pi bootable uSD card. Download and follow the
 		instructions for NOOBS 
 		[here](https://www.raspberrypi.org/documentation/installation/noobs.md). An
 		alternate set of instructions (with a different SD card writing program) is
@@ -691,20 +691,18 @@ Welcome back! I hope you had a great spring break.
 		[video instructions](https://www.raspberrypi.org/help/videos/) 
 		if you prefer.  
 
-2.2. Boot your Raspberry Pi  
+3. Insert the SD card into the Raspberry Pi  
 
-2.2.1. Insert the SD card into the Raspberry Pi  
-
-2.2.2. Go to the IM lab and borrow a monitor, a keyboard, and a mouse.  
+2. Go to the IM lab and borrow a monitor, a keyboard, and a mouse.  
 			[This](https://www.imore.com/how-get-started-using-raspberry-pi) set of
 			instructions has a pretty good picture of how to plug them in.
 
-2.2.3. Follow the setup instructions  
+3. Follow the setup instructions  
 
-2.3. When you reboot, configure your Raspberry Pi on the IMNetwork. It
+3. When you reboot, configure your Raspberry Pi on the IMNetwork. It
 			won't work yet on the NYU network.  
 
-2.4. Enable ssh. It turns out that ssh is already installed on your
+4. Enable ssh. It turns out that ssh is already installed on your
 		Raspberry Pi, you just need to enable it. Good instructions are
 		[here](https://thepi.io/how-to-ssh-into-the-raspberry-pi/).  
 
