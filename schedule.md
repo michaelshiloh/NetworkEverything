@@ -691,13 +691,20 @@ Welcome back! I hope you had a great spring break.
 		[video instructions](https://www.raspberrypi.org/help/videos/) 
 		if you prefer.  
 
+		Download the ZIPfile for the full NOOB "Offline and network install"
+
 3. Insert the SD card into the Raspberry Pi  
 
 2. Go to the IM lab and borrow a monitor, a keyboard, and a mouse.  
 			[This](https://www.imore.com/how-get-started-using-raspberry-pi) set of
 			instructions has a pretty good picture of how to plug them in.
 
-3. Follow the setup instructions  
+3. Follow the setup instructions to install the recommended version of Raspian
+
+		**Note** if you select the locale of UAE it will only give you the option
+		of an Arabic language. If you prefer English, chose a country that
+		uses English (e.g. USA or UK) and you can change the locale later 
+		if you wish.
 
 3. When you reboot, configure your Raspberry Pi on the IMNetwork. It
 			won't work yet on the NYU network.  
@@ -713,3 +720,14 @@ before Tuesday.
 #### Homework due Thursday 11 April 2019
 
 1. Finish your project 
+
+#### Tuesday 9 April 2019 11:50 - 1:05 
+
+**Announcements**
+
+1. Remember that I will be absent from April 10 - April 15. This means that we
+will in fact look at the projects on April 18.
+
+**Lesson**
+
+1. Introduction to Raspberry Pi
