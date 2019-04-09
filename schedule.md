@@ -668,13 +668,11 @@ another day. What works?
 Welcome back! I hope you had a great spring break.
 
 1. Project status 
-2. Introduction to Raspberry Pi
-1.1. Desktop
-1.2. uSD card
-1.3 Console
-3. Next meeting is Tuesday April 9
-
-### current-homework-assignment
+1. Introduction to Raspberry Pi
+	1. Desktop
+	1. uSD card
+	1. Console
+1. Next meeting is Tuesday April 9
 
 #### Homework due Tuesday 9 April 2019
 
@@ -717,10 +715,6 @@ Don't worry if this doesn't work perfectly. We will spend some time next week
 solving any problems. The goal is to get as many of you as far as possible
 before Tuesday.
 
-#### Homework due Thursday 11 April 2019
-
-1. Finish your project 
-
 #### Tuesday 9 April 2019 11:50 - 1:05 
 
 **Announcements**
@@ -731,3 +725,33 @@ will in fact look at the projects on April 18.
 **Lesson**
 
 1. Introduction to Raspberry Pi
+
+### current-homework-assignment
+
+#### Homework due Thursday 18 April 2019
+
+1. Finish your project 
+
+#### Homework due Tuesday 16 April 2019
+
+1. Magda made an excellent suggestion: Use VNC to get a virtual desktop from
+	 your Raspberry Pi on your laptop. This will give you full access
+	to you Raspberry Pi windowing environment from your laptop. If you plan to
+	use a Raspberry Pi, this will relieve you from getting a monitor from the
+	lab. If you want to do this it's pretty easy:
+	1. Enable VNC server on your Raspberry Pi, 
+	the same way you enabled the SSH server:   
+		1. Preferences -> Raspberry Pi Configuration
+		1. Interfaces
+		1. VNC: Enabled
+	1. Download and install the [realVNC](www.realvnc.com) viewer to your laptop 
+	1. On your laptop, run VNC Viewer and enter the IP address of
+		your Raspberry Pi in the search bar
+	1. Follow the prompts to enter your username and password
+
+1. Read ... from "Wireless Sensor Networks"
+
+1. Read ... from "Connected Devices"
+
+Think about what you'd like to do for a final project. the theme is ...
+
