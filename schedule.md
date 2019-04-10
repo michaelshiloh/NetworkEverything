@@ -753,8 +753,11 @@ will in fact look at the projects on April 18.
 Don't worry about all the details, 
 just try to get the general idea.
 
-1. Read
-	 [this](https://www.deviceplus.com/how-tos/arduino-guide/nrf24l01-rf-module-tutorial/) nRF24L01 tutorial.
+1. Read either
+	 [this](https://www.deviceplus.com/how-tos/arduino-guide/nrf24l01-rf-module-tutorial/) 
+	 or 
+	 [this](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
+	 nRF24L01 tutorial.
 Don't worry about all the details, 
 just try to get the general idea.
 
