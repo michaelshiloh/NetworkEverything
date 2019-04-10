@@ -749,9 +749,16 @@ will in fact look at the projects on April 18.
 		your Raspberry Pi in the search bar
 	1. Follow the prompts to enter your username and password
 
-1. Read ... from "Wireless Sensor Networks"
+1. Read chapters 1-3 from "Wireless Sensor Networks". 
+Don't worry about all the details, 
+just try to get the general idea.
 
-1. Read ... from "Connected Devices"
+1. Read
+	 [this](https://www.deviceplus.com/how-tos/arduino-guide/nrf24l01-rf-module-tutorial/) nRF24L01 tutorial.
+Don't worry about all the details, 
+just try to get the general idea.
 
-Think about what you'd like to do for a final project. the theme is ...
+Think about what you'd like to do for a final project. The theme this year
+is "A place where the virtual/game world intersects with the real/actual
+world". You can interpret this in any way you want!
 
