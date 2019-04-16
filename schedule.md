@@ -765,3 +765,16 @@ Think about what you'd like to do for a final project. The theme this year
 is "A place where the virtual/game world intersects with the real/actual
 world". You can interpret this in any way you want!
 
+#### Tuesday 16 April 2019 11:50 - 1:05 
+
+Other radios
+
+- nRF24L01
+- XBee
+
+#### Thursday 16 April 11:50 AM - 2:30 PM
+
+- Share projects
+- Construction techniques
+	- Soldering
+	- Prototype shields
