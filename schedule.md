@@ -785,14 +785,14 @@ Other radios
 	 [these](https://github.com/michaelshiloh/resourcesForClasses#soldering) 
 	 guides on soldering
 1. Practice soldering
-	1.1. Wire loops (at least 5 wire each)
-		1.1.1. Solid core wire to stranded wire
-		1.1.1. Stranded wire to stranded wire
-	1.1. Wire to circuit board (at least 5 of each)
-		1.1.1. Solid core wire to circuit board
-		1.1.1. Stranded core wire to circuit board
-	1.1. Components to circuit board (at least 5 of each)
-		1.1.1. 470K ohm resistors to circuit board (actually you can use any
+	1. Wire loops (at least 5 wire each)
+		1. Solid core wire to stranded wire
+		1. Stranded wire to stranded wire
+	1. Wire to circuit board (at least 5 of each)
+		1. Solid core wire to circuit board
+		1. Stranded core wire to circuit board
+	1. Components to circuit board (at least 5 of each)
+		1. 470K ohm resistors to circuit board (actually you can use any
 		resistor but I chose this value because we have lots and they don't get
 		used often
 1. Read chapters 2, 3, 4, and 5 
