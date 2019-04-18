@@ -797,4 +797,5 @@ Other radios
 		used often
 1. Read chapters 2, 3, 4, and 5 
 	in **Designing Connected Products**. 
-	Don't be alarmed by the quantity, it goes pretty quickly.
+	Don't be alarmed by the quantity, it goes pretty quickly. But do start 
+	now so that you finish in time.
