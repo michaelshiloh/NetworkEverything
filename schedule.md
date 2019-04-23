@@ -799,3 +799,23 @@ Other radios
 	in **Designing Connected Products**. 
 	Don't be alarmed by the quantity, it goes pretty quickly. But do start 
 	now so that you finish in time.
+
+#### Tuesday 23 April 2019 11:50 - 1:05 
+
+1. Show your soldering practice work
+1. Discuss readings
+1. Break into groups 
+	1. Define a product
+		1. What is the value proposition? What problem does it solve? (pg. 112) 
+		1. What is the target market? (pg. 121)
+		1. Is it a product or a tool? Is it a service? (pg. 124)
+			1. Summary (pg. 149)
+		1. Define the actors and stakeholders (pg. 154, 157, 159)
+		1. What is the context? (pg 162-168
+	1. Research
+		1. What questions would you ask in an interview? (pg. 171)
+		1. How would you approach making? What would you make? What method would
+			 you use? (pg. 178) 
+			1. Summary (pg. 181)
+		1. Prototoype the system with sticky notes (pg. 179, figure 5-13)
+
