@@ -777,8 +777,6 @@ Other radios
 	- Soldering
 	- Prototype shields
 
-### current-homework-assignment
-
 #### Homework due Tuesday 23 April 2019
 
 1. Read one of
@@ -804,7 +802,13 @@ Other radios
 
 1. Show your soldering practice work
 1. Discuss readings
-1. Break into groups 
+
+### current-homework-assignment
+
+#### Homework due Thursday 25 April 2019
+
+In your groups, do the following:
+
 	1. Define a product
 		1. What is the value proposition? What problem does it solve? (pg. 112) 
 		1. What is the target market? (pg. 121)
@@ -817,5 +821,11 @@ Other radios
 		1. How would you approach making? What would you make? What method would
 			 you use? (pg. 178) 
 			1. Summary (pg. 181)
-		1. Prototoype the system with sticky notes (pg. 179, figure 5-13)
+		1. Prototoype the system with sticky notes (post-its) (pg. 179, figure 5-13)
 
+Groups:
+
+1. Ingie and Junior
+1. Maria and Ju Hee 
+1. Alex, Magda, and Manas
+1. Araz and Henok
