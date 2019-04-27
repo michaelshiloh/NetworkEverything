@@ -803,8 +803,6 @@ Other radios
 1. Show your soldering practice work
 1. Discuss readings
 
-### current-homework-assignment
-
 #### Homework due Thursday 25 April 2019
 
 In your groups, do the following:
@@ -829,3 +827,23 @@ Groups:
 1. Maria and Ju Hee 
 1. Alex, Magda, and Manas
 1. Araz and Henok
+
+### current-homework-assignment
+
+#### Homework due Tuesday 30 April 2019
+
+Come up with a concept for your final project. We will discuss this in class
+and you may change your mind if you wish.
+
+Each semester all classes in Interactive Media create final projects around a
+theme. 
+The theme this year is 
+"A place where the virtual/game world intersects with the real/actual world". 
+You can interpret this in any way you want!
+
+You have a great deal of latitude in defining your final project, 
+but it must incorporate some networked elements.
+
+You are welcome to use devices or programming concepts that have not been
+covered in class. If you have to learn some material on your own, this will
+earn you extra points and will raise your grade.
