@@ -847,3 +847,14 @@ but it must incorporate some networked elements.
 You are welcome to use devices or programming concepts that have not been
 covered in class. If you have to learn some material on your own, this will
 earn you extra points and will raise your grade.
+
+#### Tuesday 30 April 2019 11:50 - 1:05 
+
+- Discuss final projects
+- Make list of parts we need to buy
+- Top three questions you need answered
+- Possible topics on Thursday
+	- Raspberry Pi
+	- Xbee
+	- nRF24L01
+	- Other?
