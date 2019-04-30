@@ -851,6 +851,7 @@ earn you extra points and will raise your grade.
 #### Tuesday 30 April 2019 11:50 - 1:05 
 
 - Discuss final projects
+	- Theme
 - Make list of parts we need to buy
 - Top three questions you need answered
 - Possible topics on Thursday
