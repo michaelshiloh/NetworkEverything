@@ -854,8 +854,49 @@ earn you extra points and will raise your grade.
 	- Theme
 - Make list of parts we need to buy
 - Top three questions you need answered
-- Possible topics on Thursday
-	- Raspberry Pi
-	- Xbee
-	- nRF24L01
-	- Other?
+- Requests for future classes:
+	- Raspberry Pi:
+		- Development
+		- Webcam 
+		- GPIO
+
+#### Thursday 16 April 11:50 AM - 2:30 PM
+
+- Project status
+	- Needs
+	- What will you do by Tuesday
+
+Raspberry Pi:
+
+- Connect General Purpose Input Output (GPIO) breakout to solderless
+	breadboard
+- Power up rPi
+- Connect to your rPi via SSH
+- make a directory for this project
+- Install required packages
+
+	    sudo npm -g install onoff
+
+- Copy the following code into a .js file (e.g. blink.js):
+
+----
+'use strict';
+
+const Gpio = require('../onoff').Gpio; // Gpio class
+const led = new Gpio(17, 'out');       // Export GPIO17 as an output
+
+// Toggle the state of the LED connected to GPIO17 every 200ms
+const iv = setInterval(_ => led.writeSync(led.readSync() ^ 1), 200);
+
+// Stop blinking the LED after 5 seconds
+setTimeout(_ => {
+  clearInterval(iv); // Stop blinking
+  led.unexport();    // Unexport GPIO and free resources
+}, 5000);
+''''
+
+- change '../onoff' to 'onoff'
+
+- Run as super user:
+
+    sudo node blink.js
