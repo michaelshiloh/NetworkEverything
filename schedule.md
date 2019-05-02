@@ -901,6 +901,8 @@ Junior - security camera alert system
 
 **Michael**
 ORDER VIBRATION MOTORS!
+webcams?
+talk to sana odeh about network
 
 Raspberry Pi GPIO
 
