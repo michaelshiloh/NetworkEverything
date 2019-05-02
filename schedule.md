@@ -879,7 +879,7 @@ Raspberry Pi:
 
 - Copy the following code into a .js file (e.g. blink.js):
 
-----
+''''
 'use strict';
 
 const Gpio = require('../onoff').Gpio; // Gpio class
