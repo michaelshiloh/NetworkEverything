@@ -949,7 +949,7 @@ Blink example:
 
 Read a switch example:
 
-- Connect a switch with 10K resistor to GPIO pin G21
+- Connect a switch with 10K resistor to GPIO pin G4
 
 - Copy the following code into a .js file (e.g. switch.js):
 
