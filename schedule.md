@@ -866,7 +866,13 @@ earn you extra points and will raise your grade.
 	- Needs
 	- What will you do by Tuesday
 
-Raspberry Pi:
+Raspberry Pi GPIO
+
+**Caution**
+Like the Arduino MKR 1010, Raspberry Pi is a 3.3 V system. Never connect a
+voltage higher than 3.3V to any Raspberry Pi pin!
+
+Setup:
 
 - Connect General Purpose Input Output (GPIO) breakout to solderless
 	breadboard
@@ -877,11 +883,15 @@ Raspberry Pi:
 
 	    sudo npm -g install onoff
 
+Blink example:
+
+- Connect an LED with a 1K resistor to GPIO pin G17
+
 - Copy the following code into a .js file (e.g. blink.js):
 
 		'use strict';
 
-		const Gpio = require('../onoff').Gpio; // Gpio class
+		const Gpio = require('onoff').Gpio; // Gpio class
 		const led = new Gpio(17, 'out');       // Export GPIO17 as an output
 
 		// Toggle the state of the LED connected to GPIO17 every 200ms
@@ -893,8 +903,32 @@ Raspberry Pi:
 			led.unexport();    // Unexport GPIO and free resources
 		}, 5000);
 
-- change '../onoff' to 'onoff'
-
 - Run as super user:
 
-    sudo node blink.js
+	    sudo node blink.js
+
+Read a switch example:
+
+- Connect a switch with 10K resistor to GPIO pin G21
+
+- Copy the following code into a .js file (e.g. switch.js):
+
+		'use strict';
+
+		const Gpio = require('onoff').Gpio;
+		const led = new Gpio(17, 'out');
+		const button = new Gpio(4, 'in', 'both');
+
+		button.watch((err, value) => {
+			console.log("button event occurred, button value = "+ value);
+			if (err) {
+				throw err;
+			}
+
+			led.writeSync(value);
+		});
+
+		process.on('SIGINT', () => {
+			led.unexport();
+			button.unexport();
+		});
