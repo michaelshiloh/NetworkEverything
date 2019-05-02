@@ -932,3 +932,9 @@ Read a switch example:
 			led.unexport();
 			button.unexport();
 		});
+
+- more examples in
+
+    https://github.com/fivdi/onoff/tree/master/examples
+
+	You may need to change '../onoff' to 'onoff'
