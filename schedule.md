@@ -865,6 +865,42 @@ earn you extra points and will raise your grade.
 - Project status
 	- Needs
 	- What will you do by Tuesday
+	
+Ingie - projection on floor, navigate using remote control
+needs: network status
+connect webcam to rpi 
+
+Maria - Disconnected Rube Goldberg, or Whispering Gallery
+
+Manas - 
+- finish software, get data from APIs
+- figure out authentication (twitter) 
+
+Araz -bracelet
+- work on hardware
+
+Magda - game recognizes objects
+connect webcam to rpi 
+recognition software
+
+Henok - 2 player gaming device, mounted gun, ducks
+- research mechanical stuff, come up with a plan, bulid a prototype
+
+Alex - interactive robot arm game
+ - one virtual robot on web page
+ - the other is a glove with sensors in fingertips, and vibration motors
+ - camera on glove is displayed on web browser
+by tuesday
+- make hand glove with sensors and vibration motors
+- draw hand (perhaps research p5.js p5js.org
+
+Junior - security camera alert system
+- electronics and necessary related software
+
+
+
+**Michael**
+ORDER VIBRATION MOTORS!
 
 Raspberry Pi GPIO
 
