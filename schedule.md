@@ -919,7 +919,9 @@ Setup:
 - make a directory for this project
 - Install required packages
 
-	    sudo npm -g install onoff
+	    sudo apt-get update
+	    sudo apt-get install npm
+	    sudo npm install onoff
 
 Blink example:
 
