@@ -978,3 +978,63 @@ Read a switch example:
     https://github.com/fivdi/onoff/tree/master/examples
 
 	You may need to change '../onoff' to 'onoff'
+
+#### Tuesday 6 May 2019 11:50 - 1:05
+
+- Raspberry Pi GPIO to web page
+  - Control GPIO pin from a web page
+    - public/index.html
+
+````
+<!doctype html>
+  <form action="/led/on" method="post">
+    <button type="submit" class="button">LED On </button>
+    <button type="submit" formmethod="post" formaction="/led/off" class="button button3">LED Off</button>
+  </form>
+````
+
+    - server.js
+
+''''
+const express = require('express'); 
+const app = express();
+const path = require('path');
+const Gpio = require('onoff').Gpio; // Gpio class
+const led = new Gpio(17, 'out');       // Export GPIO17 as an output
+
+app.use(express.static(path.join(__dirname, 'public')));
+console.log(path.join(__dirname, 'public'));
+
+app.get('/', function(req, res){ 
+  res.render('index',{status:"Press Button"});
+});
+
+app.post('/led/on', function(req, res){
+  led.writeSync(1, function(err) {
+    if (err) throw err;
+    console.log('Written True to pin');
+    console.log(path.join(__dirname, 'public'));
+    return res.render('index', {status: "Led is On"});
+  });
+});
+
+app.post('/led/off', function(req, res){
+  led.writeSync(0, false, function(err) {
+    if (err) throw err;
+    console.log('Written False to pin');
+    console.log(path.join(__dirname, 'public'));
+    return res.render('index',{status: "Led is Off"});
+  });
+});
+
+app.listen(3000, function () {
+  console.log('Server Started on Port: 3000!')
+})
+''''
+
+- [Connecting Raspberry Pi to NYU WiFi](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/) (second item on the page)
+- How to serve (via http) images from a webcam
+  - 
+- Node packages that look promising (untested)
+  - [Tracking](https://trackingjs.com/docs.html)
+  - [Image manipulation](https://www.npmjs.com/package/jimp)
