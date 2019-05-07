@@ -1038,6 +1038,7 @@ app.listen(3000, function () {
   - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
 
 ````
+    sudo apt-get update
     sudo apt-get install motion
     sudo nano /etc/motion/motion.conf and change:
 
@@ -1045,11 +1046,11 @@ app.listen(3000, function () {
 		  stream_localhost off
 		  turn off saving locally (perhaps output_pictures off)
 
-	  sudo nano /etc/default/motion and change:
+    sudo nano /etc/default/motion and change:
 
 	    start_motion_daemon = yes
 
-	  sudo service motion start
+    sudo service motion start
 ````
 
 and now can visit
