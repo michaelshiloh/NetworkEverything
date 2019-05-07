@@ -1033,6 +1033,7 @@ app.listen(3000, function () {
 })
 ````
 
+- Bidirectional? Try [this](https://www.w3schools.com/nodejs/nodejs_raspberrypi_webserver_websocket.asp)
 - [Connecting Raspberry Pi to NYU WiFi](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/) (second item on the page)
 - How to serve (via http) images from a webcam
   - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
