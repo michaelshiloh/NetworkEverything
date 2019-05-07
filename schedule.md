@@ -1037,7 +1037,7 @@ app.listen(3000, function () {
 - How to serve (via http) images from a webcam
   - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
 
-''''
+````
     sudo apt-get install motion
     sudo nano /etc/motion/motion.conf and change:
 
@@ -1050,7 +1050,7 @@ app.listen(3000, function () {
 	    start_motion_daemon = yes
 
 	  sudo service motion start
-''''
+````
 
 and now can visit
 
