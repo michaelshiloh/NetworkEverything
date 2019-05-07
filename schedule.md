@@ -1034,7 +1034,24 @@ app.listen(3000, function () {
 
 - [Connecting Raspberry Pi to NYU WiFi](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/) (second item on the page)
 - How to serve (via http) images from a webcam
-  - 
+  - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
+    sudo apt-get install motion
+    sudo nano /etc/motion/motion.conf and change:
+
+		  DAEMON = ON
+		  stream_localhost off
+		  turn off saving locally (perhaps output_pictures off)
+
+	  sudo nano /etc/default/motion and change:
+
+	    start_motion_daemon = yes
+
+	  sudo service motion start
+
+and now can visit
+
+	http://10.225.93.207:8081/
+ 
 - Node packages that look promising (untested)
   - [Tracking](https://trackingjs.com/docs.html)
   - [Image manipulation](https://www.npmjs.com/package/jimp)
