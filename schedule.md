@@ -983,7 +983,8 @@ Read a switch example:
 
 - Raspberry Pi GPIO to web page
   - Control GPIO pin from a web page
-    - public/index.html
+    
+**public/index.html**
 
 ````
 <!doctype html>
@@ -993,7 +994,7 @@ Read a switch example:
   </form>
 ````
 
-    - server.js
+**server.js**
 
 ````
 const express = require('express'); 
@@ -1035,6 +1036,8 @@ app.listen(3000, function () {
 - [Connecting Raspberry Pi to NYU WiFi](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/) (second item on the page)
 - How to serve (via http) images from a webcam
   - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
+
+''''
     sudo apt-get install motion
     sudo nano /etc/motion/motion.conf and change:
 
@@ -1047,6 +1050,7 @@ app.listen(3000, function () {
 	    start_motion_daemon = yes
 
 	  sudo service motion start
+''''
 
 and now can visit
 
