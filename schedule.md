@@ -938,3 +938,14 @@ Read a switch example:
     https://github.com/fivdi/onoff/tree/master/examples
 
 	You may need to change '../onoff' to 'onoff'
+
+-------------------
+#### Tuesday 14 May 2019 11:50 - 1:05 
+
+- Course evaluations
+- Showcase network 
+  - SSID: Showcase
+  - Password: static123
+  - Security: WPA/WPA2 Personal
+  - This is a hidden network, so you will not see it when you list networks.
+  - This should be campus wide
