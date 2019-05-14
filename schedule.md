@@ -865,6 +865,44 @@ earn you extra points and will raise your grade.
 - Project status
 	- Needs
 	- What will you do by Tuesday
+	
+Ingie - projection on floor, navigate using remote control
+needs: network status
+connect webcam to rpi 
+
+Maria - Disconnected Rube Goldberg, or Whispering Gallery
+
+Manas - 
+- finish software, get data from APIs
+- figure out authentication (twitter) 
+
+Araz -bracelet
+- work on hardware
+
+Magda - game recognizes objects
+connect webcam to rpi 
+recognition software
+
+Henok - 2 player gaming device, mounted gun, ducks
+- research mechanical stuff, come up with a plan, bulid a prototype
+
+Alex - interactive robot arm game
+ - one virtual robot on web page
+ - the other is a glove with sensors in fingertips, and vibration motors
+ - camera on glove is displayed on web browser
+by tuesday
+- make hand glove with sensors and vibration motors
+- draw hand (perhaps research p5.js p5js.org
+
+Junior - security camera alert system
+- electronics and necessary related software
+
+
+
+**Michael**
+ORDER VIBRATION MOTORS!
+webcams?
+talk to sana odeh about network
 
 Raspberry Pi GPIO
 
@@ -881,7 +919,9 @@ Setup:
 - make a directory for this project
 - Install required packages
 
-	    sudo npm -g install onoff
+	    sudo apt-get update
+	    sudo apt-get install npm
+	    sudo npm install onoff
 
 Blink example:
 
@@ -909,7 +949,7 @@ Blink example:
 
 Read a switch example:
 
-- Connect a switch with 10K resistor to GPIO pin G21
+- Connect a switch with 10K resistor to GPIO pin G4
 
 - Copy the following code into a .js file (e.g. switch.js):
 
@@ -939,10 +979,94 @@ Read a switch example:
 
 	You may need to change '../onoff' to 'onoff'
 
+#### Tuesday 6 May 2019 11:50 - 1:05
+
+- Raspberry Pi GPIO to web page
+  - Control GPIO pin from a web page
+    
+**public/index.html**
+
+````
+<!doctype html>
+  <form action="/led/on" method="post">
+    <button type="submit" class="button">LED On </button>
+    <button type="submit" formmethod="post" formaction="/led/off" class="button button3">LED Off</button>
+  </form>
+````
+
+**server.js**
+
+````
+const express = require('express'); 
+const app = express();
+const path = require('path');
+const Gpio = require('onoff').Gpio; // Gpio class
+const led = new Gpio(17, 'out');       // Export GPIO17 as an output
+
+app.use(express.static(path.join(__dirname, 'public')));
+console.log(path.join(__dirname, 'public'));
+
+app.get('/', function(req, res){ 
+  res.render('index',{status:"Press Button"});
+});
+
+app.post('/led/on', function(req, res){
+  led.writeSync(1, function(err) {
+    if (err) throw err;
+    console.log('Written True to pin');
+    console.log(path.join(__dirname, 'public'));
+    return res.render('index', {status: "Led is On"});
+  });
+});
+
+app.post('/led/off', function(req, res){
+  led.writeSync(0, false, function(err) {
+    if (err) throw err;
+    console.log('Written False to pin');
+    console.log(path.join(__dirname, 'public'));
+    return res.render('index',{status: "Led is Off"});
+  });
+});
+
+app.listen(3000, function () {
+  console.log('Server Started on Port: 3000!')
+})
+````
+
+- Bidirectional? Try [this](https://www.w3schools.com/nodejs/nodejs_raspberrypi_webserver_websocket.asp)
+- [Connecting Raspberry Pi to NYU WiFi](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/) (second item on the page)
+- How to serve (via http) images from a webcam
+  - from https://www.instructables.com/id/Raspberry-Pi-remote-webcam/
+
+````
+    sudo apt-get update
+    sudo apt-get install motion
+    sudo nano /etc/motion/motion.conf and change:
+
+		  DAEMON = ON
+		  stream_localhost off
+		  turn off saving locally (perhaps output_pictures off)
+
+    sudo nano /etc/default/motion and change:
+
+	    start_motion_daemon = yes
+
+    sudo service motion start
+````
+
+and now can visit
+
+	http://10.225.93.207:8081/
+ 
+- Node packages that look promising (untested)
+  - [Tracking](https://trackingjs.com/docs.html)
+  - [Image manipulation](https://www.npmjs.com/package/jimp)
+
 -------------------
 #### Tuesday 14 May 2019 11:50 - 1:05 
 
 - Course evaluations
+
 - Showcase network 
   - SSID: Showcase
   - Password: static123
