@@ -1084,6 +1084,21 @@ network={
 }
 ````
 
+#### 16 May 2019
+
+Your responsibilities for the showcase tonight
+
+- Arrive no later than 7pm
+- Configure your computer to not go to sleep or to blank the screen
+- Have your project functioning and your area cleaned up by 7:15pm
+- Welcome visitors to your project, explain it to them, show them how to use it, and answer questions
+- Do not use your phone except for taking pictures
+- Stay near your project, or designate a friend or neighbor to take on this responsibility to allow you to walk around a little
+- Take the time to visit the other projects
+- Have fun!
+- Help to clean up after the show. Do more than just your project.
+
+
 ### current-homework-assignment
 
 ### Final project documentation deadline: 11:59 pm Thursday, May 23
@@ -1104,3 +1119,9 @@ to your Github repository. Your documentation must include:
 - Explain how your project works and how you built it. 
 - Discuss what problems you ran into and how you resolved them or worked
 	around them
+
+### Shelf cleaning deadline: 7pm Wednesday, May 29
+
+On Wednesday May 29th at 7pm I will empty the shelves of all projects and recycle all useful components. If you wish to keep any parts of your project, please remove them before then.
+
+If you are unsure about what you may keep and what you must return to the lab please contact me.
