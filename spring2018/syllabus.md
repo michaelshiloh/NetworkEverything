@@ -1,7 +1,6 @@
 ## New York University Abu Dhabi
 ## Interactive Media
 # Network Everything
-### Course Number: IM-UH 2112
 ### Spring 2018
 
 **Everything can be found on the course website:**   
@@ -12,13 +11,13 @@
 This syllabus is subject to change
 
 _
-
+**Course Title:** Network Everything
+**Course Number:** IM-UH 2112
 **Credits Hours:** 4  
 **Classroom:** C3-029 (Art Center - Interactive Media lab)  
 **Time:** Tuesday 9 - 10:15 and Thursday 9 - 11:40  
 
-**Recommended Prerequisites:**
-None
+**Recommended Prerequisites:** None
 
 **This course counts towards the following NYUAD degree requirement:** 
 Minor in Interactive Media
