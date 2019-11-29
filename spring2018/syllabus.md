@@ -10,12 +10,12 @@
 
 This syllabus is subject to change
 
-_
-**Course Title:** Network Everything
-**Course Number:** IM-UH 2112
-**Credits Hours:** 4  
-**Classroom:** C3-029 (Art Center - Interactive Media lab)  
-**Time:** Tuesday 9 - 10:15 and Thursday 9 - 11:40  
+
+**Course Title:** Network Everything  
+**Course Number:** IM-UH 2112  
+**Credits Hours:** 4    
+**Classroom:** C3-029 (Art Center - Interactive Media lab)    
+**Time:** Tuesday 9 - 10:15 and Thursday 9 - 11:40    
 
 **Recommended Prerequisites:** None
 
